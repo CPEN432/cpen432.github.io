@@ -1,0 +1,85 @@
+start_addr
+00400140 <__start> lw        $16,0($29)
+00400148 <__start+0x8> lui       $28,4097
+00400150 <__start+0x10> addiu     $28,$28,-32032
+00400158 <__start+0x18> addiu     $17,$29,4
+00400160 <__start+0x20> addiu     $3,$17,4
+00400168 <__start+0x28> sll       $2,$16,0x2
+00400170 <__start+0x30> addu      $3,$3,$2
+00400178 <__start+0x38> addu      $18,$0,$3
+00400180 <__start+0x40> sw        $18,-32636($28)
+00400188 <__start+0x48> addiu     $29,$29,-24
+00400190 <__start+0x50> addu      $4,$0,$16
+00400198 <__start+0x58> addu      $5,$0,$17
+004001a0 <__start+0x60> addu      $6,$0,$18
+004001a8 <__start+0x68> jal       00400340 <__libc_init> 
+004001b0 <__start+0x70> sw        $0,-32640($28)
+004001b8 <__start+0x78> addu      $4,$0,$16
+004001c0 <__start+0x80> addu      $5,$0,$17
+004001c8 <__start+0x88> addu      $6,$0,$18
+004001d0 <__start+0x90> jal       004001f0 <main> 
+004001d8 <__start+0x98> addu      $4,$0,$2
+004001e0 <__start+0xa0> jal       00400370 <exit> 
+004001e8 <__start+0xa8> nop       
+    ...
+main():
+bsort100.c:56
+004001f0 <main> addiu     $6,$0,-1
+bsort100.c:57
+004001f8 <main+0x8> addiu     $5,$0,1
+00400200 <main+0x10> lui       $4,4096
+00400208 <main+0x18> addiu     $4,$4,964
+00400210 <main+0x20> addiu     $3,$0,-1
+bsort100.c:58
+00400218 <main+0x28> sw        $3,0($4)
+bsort100.c:57
+00400220 <main+0x30> addiu     $4,$4,4
+00400228 <main+0x38> addu      $3,$3,$6
+00400230 <main+0x40> addiu     $5,$5,1
+00400238 <main+0x48> slti      $2,$5,1025
+00400240 <main+0x50> bne       $2,$0,00400218
+bsort100.c:66
+00400248 <main+0x58> addiu     $8,$0,1
+00400250 <main+0x60> addiu     $13,$0,1024
+00400258 <main+0x68> lui       $11,4096
+00400260 <main+0x70> addiu     $11,$11,960
+00400268 <main+0x78> addiu     $12,$11,4
+bsort100.c:67
+00400270 <main+0x80> addiu     $9,$0,1
+bsort100.c:68
+00400278 <main+0x88> addiu     $7,$0,1
+00400280 <main+0x90> subu      $10,$13,$8
+00400288 <main+0x98> addiu     $6,$12,4
+00400290 <main+0xa0> addiu     $5,$11,4
+bsort100.c:69
+00400298 <main+0xa8> slt       $2,$10,$7
+004002a0 <main+0xb0> bne       $2,$0,00400308
+bsort100.c:70
+004002a8 <main+0xb8> lw        $4,0($5)
+004002b0 <main+0xc0> lw        $3,0($6)
+004002b8 <main+0xc8> slt       $2,$3,$4
+004002c0 <main+0xd0> beq       $2,$0,004002e0
+bsort100.c:74
+004002c8 <main+0xd8> addu      $9,$0,$0
+bsort100.c:72
+004002d0 <main+0xe0> sw        $3,0($5)
+bsort100.c:73
+004002d8 <main+0xe8> sw        $4,0($6)
+bsort100.c:68
+004002e0 <main+0xf0> addiu     $6,$6,4
+004002e8 <main+0xf8> addiu     $5,$5,4
+004002f0 <main+0x100> addiu     $7,$7,1
+004002f8 <main+0x108> slti      $2,$7,1024
+00400300 <main+0x110> bne       $2,$0,00400298
+bsort100.c:78
+00400308 <main+0x118> bne       $9,$0,00400328
+bsort100.c:66
+00400310 <main+0x120> addiu     $8,$8,1
+00400318 <main+0x128> slti      $2,$8,1024
+00400320 <main+0x130> bne       $2,$0,00400270
+bsort100.c:82
+00400328 <main+0x138> addu      $2,$0,$0
+bsort100.c:83
+00400330 <main+0x140> jr        $31
+00400338 <main+0x148> nop       
+end_addr
