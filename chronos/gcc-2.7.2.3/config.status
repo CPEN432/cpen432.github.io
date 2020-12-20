@@ -1,4 +1,0 @@
-#!/bin/sh
-# GCC was configured as follows:
-./configure --target=sslittle-na-sstrix --with-gnu-as --with-gnu-ld --prefix=/ubc/ece/home/courses/eece494/chronos --enable-languages=c
-echo host=i686-unknown-linux target=sslittle-na-sstrix build=i686-unknown-linux
