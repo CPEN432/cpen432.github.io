@@ -6,32 +6,33 @@ title: Lectures
 
 
 | **No.** | **Date** | **Topics** | **Readings** |
-|:---:|:-------|:---:|:----:|
-|  1  |  Thu 5-SEP |  Introduction   |  [L1-Introduction](http://cpen432.github.io/resources/bader-slides/1-Introduction.pdf)    |
-|  2  |  Tue 10-SEP |     Models & Job Scheduling   |  [L2-Models](http://cpen432.github.io/resources/bader-slides/2-Models.pdf)|
-|  3  |  Thu 12-SEP |  Models & Job Scheduling continued    |   ^   |
-|  4  |  Tue 17-SEP |  Critical Instant + RM Optimality + EDF Optimality and Bound  |  [L3-RM-EDF-OPT](http://cpen432.github.io/resources/bader-slides/3-critical-instant+EDF.pdf), chapter 4 Buttazo |
-|  5  |  Thu 19-SEP |  Critical Instant + RM Optimality + EDF Optimality and Bound  |  ^   |
-|  6  |  Tue 24-SEP |  RM Liu & Layland (LL) Bound   |  [L4-RM-LLBOUND](http://cpen432.github.io/resources/bader-slides/4-RM.pdf), chapter 4 Buttazo    |
-|  7  |  Thu 26-SEP | RM Hyperbolic, DM, Response Time Analysis |  [L5-RM-HB-DM-RTA](http://cpen432.github.io/resources/bader-slides/5-RM-hyperbolic+DM+response.pdf), chapter 4 Buttazo    |
-|  8  |  Tue 1-OCT |  EDF processor demand   |  [L6-EDF-DEMAND](http://cpen432.github.io/resources/bader-slides/6-EDF-exact.pdf), chapter 4 Buttazo    |
-|  9 |  Thu 3-OCT | What happened on Mars?   |  [L7-MARS](http://cpen432.github.io/resources/bader-slides/7-Mars.pdf)    |
-|  10 |  Tue 8-OCT |  Resource Access Protocols-1 (NPP + HLP + PIP)  |  [L8-RESOURCE](http://cpen432.github.io/resources/bader-slides/8-ResourceSharing.pdf), Buttazo chapter 7   |
-|  11 |  Thu 10-OCT |  Resource Access Protocols-2  (PIP + SRP)   |  ^  |
-|  12 |  Tue 15-OCT |  Task Servers    |  [L9-APERIODIC-SERVERS](http://cpen432.github.io/resources/bader-slides/9-TaskServers.pdf), Buttazo chapters 5 & 6   |
-|  13 |  Thu 17-OCT |  No lecture   |      |
-|  14 |  Tue 22-OCT |  Soft real-time   |   [L10-SOFT](http://cpen432.github.io/resources/bader-slides/10-SoftRealTime.pdf)   |
-|  15 |  Thu 24-OCT  |  Soft real-time continued   |      |
-|  16 |  Tue 29-OCT | Multistage distributed real-time systems   |  [L12-MULTISTAGE](http://cpen432.github.io/resources/bader-slides/12-MultiStage.pdf)   |
-|  17 |  Thu 31-OCT  |  Multiprocessor scheduling - 1    | [L11-MULTIPROCESSOR](http://cpen432.github.io/resources/bader-slides/11-Multiprocessors.pdf)   |
-|  18 |  Tue 5-NOV |  Multiprocessor scheduling - 2   |      |
-|  19 |  Thu 7-NOV  |  Reliability and fault tolerance - 1   |  [L13-RELIABILITY](http://cpen432.github.io/resources/bader-slides/13-Reliability.pdf)    | 
-|  20 |  Tue 12-NOV |  Reliability and fault tolerance - 2   |     |
-|  21 |  Thu 14-NOV  | Reliability and fault tolerance - 3  |   | 
-|  22 |  Tue 19-NOV |  System/Software Safety - 1. **Guest Lecture**: Simon Diemert, [Critical Systems Labs Inc.](https://www.criticalsystemslabs.com)  |  [L14-SAFETY](http://cpen432.github.io/resources/bader-slides/14-safety.pdf)    |
-|  23 |  Thu 21-NOV  |  System/Software Safety - 2. **Guest Lecture**: Simon Diemert  |      |
-|  24 |  Tue 26-NOV |  Review Session   |      |
-|  25 |  Thu 28-NOV  |  ?   |      |
+
+<!-- |:---:|:-------|:---:|:----:| -->
+<!-- |  1  |  Thu 5-SEP |  Introduction   |  [L1-Introduction](http://cpen432.github.io/resources/bader-slides/1-Introduction.pdf)    | -->
+<!-- |  2  |  Tue 10-SEP |     Models & Job Scheduling   |  [L2-Models](http://cpen432.github.io/resources/bader-slides/2-Models.pdf)| -->
+<!-- |  3  |  Thu 12-SEP |  Models & Job Scheduling continued    |   ^   | -->
+<!-- |  4  |  Tue 17-SEP |  Critical Instant + RM Optimality + EDF Optimality and Bound  |  [L3-RM-EDF-OPT](http://cpen432.github.io/resources/bader-slides/3-critical-instant+EDF.pdf), chapter 4 Buttazo | -->
+<!-- |  5  |  Thu 19-SEP |  Critical Instant + RM Optimality + EDF Optimality and Bound  |  ^   | -->
+<!-- |  6  |  Tue 24-SEP |  RM Liu & Layland (LL) Bound   |  [L4-RM-LLBOUND](http://cpen432.github.io/resources/bader-slides/4-RM.pdf), chapter 4 Buttazo    | -->
+<!-- |  7  |  Thu 26-SEP | RM Hyperbolic, DM, Response Time Analysis |  [L5-RM-HB-DM-RTA](http://cpen432.github.io/resources/bader-slides/5-RM-hyperbolic+DM+response.pdf), chapter 4 Buttazo    | -->
+<!-- |  8  |  Tue 1-OCT |  EDF processor demand   |  [L6-EDF-DEMAND](http://cpen432.github.io/resources/bader-slides/6-EDF-exact.pdf), chapter 4 Buttazo    | -->
+<!-- |  9 |  Thu 3-OCT | What happened on Mars?   |  [L7-MARS](http://cpen432.github.io/resources/bader-slides/7-Mars.pdf)    | -->
+<!-- |  10 |  Tue 8-OCT |  Resource Access Protocols-1 (NPP + HLP + PIP)  |  [L8-RESOURCE](http://cpen432.github.io/resources/bader-slides/8-ResourceSharing.pdf), Buttazo chapter 7   | -->
+<!-- |  11 |  Thu 10-OCT |  Resource Access Protocols-2  (PIP + SRP)   |  ^  | -->
+<!-- |  12 |  Tue 15-OCT |  Task Servers    |  [L9-APERIODIC-SERVERS](http://cpen432.github.io/resources/bader-slides/9-TaskServers.pdf), Buttazo chapters 5 & 6   | -->
+<!-- |  13 |  Thu 17-OCT |  No lecture   |      | -->
+<!-- |  14 |  Tue 22-OCT |  Soft real-time   |   [L10-SOFT](http://cpen432.github.io/resources/bader-slides/10-SoftRealTime.pdf)   | -->
+<!-- |  15 |  Thu 24-OCT  |  Soft real-time continued   |      | -->
+<!-- |  16 |  Tue 29-OCT | Multistage distributed real-time systems   |  [L12-MULTISTAGE](http://cpen432.github.io/resources/bader-slides/12-MultiStage.pdf)   | -->
+<!-- |  17 |  Thu 31-OCT  |  Multiprocessor scheduling - 1    | [L11-MULTIPROCESSOR](http://cpen432.github.io/resources/bader-slides/11-Multiprocessors.pdf)   | -->
+<!-- |  18 |  Tue 5-NOV |  Multiprocessor scheduling - 2   |      | -->
+<!-- |  19 |  Thu 7-NOV  |  Reliability and fault tolerance - 1   |  [L13-RELIABILITY](http://cpen432.github.io/resources/bader-slides/13-Reliability.pdf)    |  -->
+<!-- |  20 |  Tue 12-NOV |  Reliability and fault tolerance - 2   |     | -->
+<!-- |  21 |  Thu 14-NOV  | Reliability and fault tolerance - 3  |   |  -->
+<!-- |  22 |  Tue 19-NOV |  System/Software Safety - 1. **Guest Lecture**: Simon Diemert, [Critical Systems Labs Inc.](https://www.criticalsystemslabs.com)  |  [L14-SAFETY](http://cpen432.github.io/resources/bader-slides/14-safety.pdf)    | -->
+<!-- |  23 |  Thu 21-NOV  |  System/Software Safety - 2. **Guest Lecture**: Simon Diemert  |      | -->
+<!-- |  24 |  Tue 26-NOV |  Review Session   |      | -->
+<!-- |  25 |  Thu 28-NOV  |  ?   |      | -->
 
 
 
