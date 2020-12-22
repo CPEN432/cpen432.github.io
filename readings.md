@@ -7,7 +7,7 @@ title: Readings
 * _The C Book_ - Mike Banahan, Declan Brady and Mark Doran. Available for free [online](http://publications.gbdirect.co.uk/c_book/) and as a [pdf](http://publications.gbdirect.co.uk/c_book/thecbook.pdf). This book is well-written, with more emphasis on embedded system aspects. 
 
 ### Embedded Software Enigneering
-In completing the projects, you will observe and apply best software engineering practices for embedded software development. The material in [Philip Koopman's course 18-642: Embedded Software Engineering](https://users.ece.cmu.edu/~koopman/lectures/index.html) (available as both slides and Youtube videos) is an excellent resource on code quality, safety, and security considerations and practices pertaianing to embedded system software.
+In completing the projects, you will observe and apply best software engineering practices for embedded software development. The material in [Philip Koopman's course 18-642: Embedded Software Engineering](https://users.ece.cmu.edu/~koopman/lectures/index.html) (available as both slides and Youtube videos) is an excellent resource on code quality, safety, and security considerations and practices pertaining to embedded software.
 
 *A significant portion of your project grades will be based on the extent to which you apply these practices. **Regard this material as mandatory and examinable reading.*** 
 

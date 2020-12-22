@@ -43,8 +43,8 @@ There will be 4-5 theoretical [assignments](https://cpen432.github.io/assignment
 
 
 ### Examinations
-There will be only a final exam (written) that counts towards 20% of your _raw_ final grade. The exam is is open book. <!-- The instructor reserves the right to assign a take-home exam for partial or full credit towards the final exam. --> 
-There is _no midterm_ exam.
+There will be only a final exam (written) that counts towards 20% of your _raw_ final grade. The exam is open book. <!-- The instructor reserves the right to assign a take-home exam for partial or full credit towards the final exam. --> 
+**There is _no midterm_ exam.**
 
 
 
