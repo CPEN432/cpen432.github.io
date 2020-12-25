@@ -37,6 +37,17 @@ There will be 4-5 programming assignments that collectively count towards 50% of
 
 Many projects will involve embedded programming and require knowledge of material that we will *not* discuss in class. You will be given all the resources you need, and, as an engineer in a senior year course, you are expected to go through hardware manuals, processor specs, etc, and figure things out on your own. The teaching staff will do their best to provide help and guidance. 
 
+#### Project Equipment
+Due to the unfortunate circumstances brought upon us by COVID-19, students are required to purchase their own kits for the projects. The equipment we will need for the project purposes include:
+
+1. TTL-to-USB Serial Debug Console Cable. Can be purchased at <https://www.adafruit.com/product/954>; and
+2. Rapberry Pi B2 Board + power adapter + MicroSD Card (for kernel flashing). A convenient kit including all of these components (and more) can be purchased at <https://www.canakit.com/raspberry-pi-starter-kit.html>. 
+
+**Begin Disclaimer**  
+The teaching staff is not affiliated with AdaFruite or CanaKit. Please feel free to purchase the equipment from any source that best suits your situation. For instance, we understand that some students might be taking the course from outside Canada or even North America, so other purchasing options can certainly be more convenient.  
+**End Disclaimer**  
+
+
 ### Assignments
 There will be 4-5 theoretical [assignments](https://cpen432.github.io/assignments/), roughly every two weeks. The assignments will count towards 30% of your _raw_ final grade. The assignments should be completed individually, and a submission per student is expected.
 
