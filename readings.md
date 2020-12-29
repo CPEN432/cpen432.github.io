@@ -44,13 +44,15 @@ In completing the projects, you will observe and apply best software engineering
 
 
 
-### Research Papers in Real-time Systems ###
+### Research Papers ### 
 
-#### General
+#### Real-time Systems ####
+
+##### General
 [J.A. Stankovic "Misconceptions about real-time computing: A serious problem for next-generation systems"](http://cpen432.github.io/resources/P9-misconceptions-rt.pdf)
 
 
-#### RM and EDF
+##### RM and EDF
 [Liu & Layland "Scheduling Algorithms for Multiprogramming in a Hard Real-Time Environment"](http://cpen432.github.io/resources/P1-liu-layland.pdf)
 
 [Enrico Bini, Giorgio C. Buttazzo, and Giuseppe M. Buttazzo "Rate Monotonic Analysis: The Hyperbolic Bound"](http://cpen432.github.io/resources/P2-hyperbolic.pdf)
@@ -61,7 +63,7 @@ In completing the projects, you will observe and apply best software engineering
 
 [M. Joseph and M. Pandya "Finding Response Times in a Real-time System"](http://cpen432.github.io/resources/P5-response-time.pdf)
 
-#### Resource Access Protocols
+##### Resource Access Protocols
 
 [L. Sha; R. Rajkumar, and J.P Lehoczky "Priority inheritance protocols: an approach to real-time synchronization"](http://cpen432.github.io/resources/P6-priority-inheritance-sha.pdf)
 
@@ -74,3 +76,7 @@ In completing the projects, you will observe and apply best software engineering
 
 <!-- [Bjorn B. Brandenburg and James H. Anderson "On the Implementation of Global Real-Time Schedulers"](http://cpen432.github.io/resources/P8-global.pdf) -->
 
+
+#### Safety Critical Software Systems
+
+[Nancy Leveson. _Are You Sure Your Software Will Not Kill Anyone?_Communications of the ACM, February 2020, Vol. 63 No. 2, Pages 25-28](https://cacm.acm.org/magazines/2020/2/242342-are-you-sure-your-software-will-not-kill-anyone/fulltext)
