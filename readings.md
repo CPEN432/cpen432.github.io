@@ -79,4 +79,4 @@ In completing the projects, you will observe and apply best software engineering
 
 #### Safety Critical Software Systems
 
-[Nancy Leveson. _Are You Sure Your Software Will Not Kill Anyone?_Communications of the ACM, February 2020, Vol. 63 No. 2, Pages 25-28](https://cacm.acm.org/magazines/2020/2/242342-are-you-sure-your-software-will-not-kill-anyone/fulltext)
+[Nancy Leveson. Are You Sure Your Software Will Not Kill Anyone? Communications of the ACM, February 2020, Vol. 63 No. 2, Pages 25-28](https://cacm.acm.org/magazines/2020/2/242342-are-you-sure-your-software-will-not-kill-anyone/fulltext)
