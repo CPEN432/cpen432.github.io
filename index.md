@@ -8,7 +8,7 @@ use-site-title: false
 **Lecture Time:** Tuesday Thursday, 6:00pm-7:30pm. Lectures start Tuesday Jan 12  
 **Lecture Room:** This course is delivered fully online.   
 
-**Tutorial Time:** Wednesday, 9:00am-11:00am. First Tutorial: Jan 13
+**Tutorial Time:** Wednesday, 9:00am-11:00am. First Tutorial: Jan 20
 <!-- **Tutorial Room:** Frank Forward 317   -->
 
 
