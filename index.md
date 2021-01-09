@@ -7,7 +7,7 @@ use-site-title: false
 
 **Lecture Time:** Tuesday Thursday, 6:00pm-7:30pm. Lectures start Tuesday Jan 12  
 **Lecture Room:** This course is delivered fully online. 
-Links to zoom lectures on course Canvas page: https://canvas.ubc.ca/courses/63247
+Links to zoom lectures on course Canvas page: <https://canvas.ubc.ca/courses/63247>
 
 
 **Tutorial Time:** Wednesday, 9:00am-11:00am. First Tutorial: Jan 20
