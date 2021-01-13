@@ -6,9 +6,9 @@ title: Lectures
 
 
 | **No.** | **Date** | **Topics** | **Readings** |
-
 |:---:|:-------|:---:|:----:|
-|  1  |  Tue 12-JAN |  Introduction   |  [L1-Introduction](http://cpen432.github.io/resources/bader-slides/1-Introduction.pdf)    |
+|  1  |  Tue 12-JAN |  Introduction   |  [L1-Introduction](http://cpen432.github.io/resources/bader-slides/1-Introduction.pdf) |
+
 
 <!-- |  2  |  Tue 10-SEP |     Models & Job Scheduling   |  [L2-Models](http://cpen432.github.io/resources/bader-slides/2-Models.pdf)| -->
 <!-- |  3  |  Thu 12-SEP |  Models & Job Scheduling continued    |   ^   | -->
