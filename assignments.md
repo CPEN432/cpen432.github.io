@@ -6,7 +6,7 @@ title: Assignments
 
  | **No.** | **Handout** | **Due** | **Link** | 
 |:---:|:-------:|:---:|:----:|:----:|
-|  1  |  Jan 29       |  Feb 10, 11:59 p.m.   |  [WA1](http://cpen432.github.io/assignments/cpen432w21-wa1.pdf.pdf)    |
+|  1  |  Jan 29       |  Feb 10, 11:59 p.m.   |  [WA1](http://cpen432.github.io/assignments/cpen432w21-wa1.pdf)    |
 
 <!-- |  2  |  Oct 10       |  Oct 23, 11:59 p.m.   |  [WA2](http://cpen432.github.io/assignments/cpen432-wa2.pdf) | -->
 <!-- |  3  |  Nov 5       |  Nov 14, 11:59 p.m.   |  [WA3](http://cpen432.github.io/assignments/cpen432-wa3.pdf) | -->
