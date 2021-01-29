@@ -7,18 +7,12 @@ title: Lectures
 
 | **No.** | **Date** | **Topics** | **Readings** |
 |:---:|:-------|:---:|:----:|
-|  1  |  Tue 12-JAN |  Introduction   |  [L1-Introduction](http://cpen432.github.io/resources/bader-slides/1-Introduction.pdf) |
+|  1  |  Tue 12-Jan |  Introduction   |  [L1-Introduction](http://cpen432.github.io/resources/bader-slides/1-Introduction.pdf) |
 |  2  |  Thu 14-Jan |     ^   |  ^ |  
 |  3  |  Tue 19-Jan |  Models & Job Scheduling     |  [L2-Models](http://cpen432.github.io/resources/bader-slides/2-Models.pdf)    |
 |  4  |  Thu 21-Jan |  ^     |  ^    |  
+|  5  |  Thu 28-Jan |  Critical Instant + RM Optimality + EDF Optimality and Bound  |  [L3-RM-EDF-OPT](http://cpen432.github.io/resources/bader-slides/3-critical-instant+EDF.pdf), chapter 4 Buttazo |
 
-
-
-<!-- |  4  |  Thu 17-SEP |  Critical Instant + RM Optimality + EDF Optimality and Bound  |  [L3-RM-EDF-OPT](http://cpen432.github.io/resources/bader-slides/3-critical-instant+EDF.pdf), chapter 4 Buttazo | -->
-
-<!-- |  4  |  Tue 17-SEP |  Critical Instant + RM Optimality + EDF Optimality and Bound  |  [L3-RM-EDF-OPT](http://cpen432.github.io/resources/bader-slides/3-critical-instant+EDF.pdf), chapter 4 Buttazo | -->
-
-<!-- |  5  |  Thu 19-SEP |  Critical Instant + RM Optimality + EDF Optimality and Bound  |  ^   | -->
 <!-- |  6  |  Tue 24-SEP |  RM Liu & Layland (LL) Bound   |  [L4-RM-LLBOUND](http://cpen432.github.io/resources/bader-slides/4-RM.pdf), chapter 4 Buttazo    | -->
 <!-- |  7  |  Thu 26-SEP | RM Hyperbolic, DM, Response Time Analysis |  [L5-RM-HB-DM-RTA](http://cpen432.github.io/resources/bader-slides/5-RM-hyperbolic+DM+response.pdf), chapter 4 Buttazo    | -->
 <!-- |  8  |  Tue 1-OCT |  EDF processor demand   |  [L6-EDF-DEMAND](http://cpen432.github.io/resources/bader-slides/6-EDF-exact.pdf), chapter 4 Buttazo    | -->
