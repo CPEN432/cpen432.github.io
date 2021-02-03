@@ -12,8 +12,9 @@ title: Lectures
 |  3  |  Tue 19-Jan |  Models & Job Scheduling     |  [L2-Models](http://cpen432.github.io/resources/bader-slides/2-Models.pdf)    |
 |  4  |  Thu 21-Jan |  ^     |  ^    |  
 |  5  |  Thu 28-Jan |  Critical Instant + RM Optimality + EDF Optimality and Bound  |  [L3-RM-EDF-OPT](http://cpen432.github.io/resources/bader-slides/3-critical-instant+EDF.pdf), chapter 4 Buttazo |
+|  6  |  Tue 2-Feb |  RM Liu & Layland (LL) Bound   |  [L4-RM-LLBOUND](http://cpen432.github.io/resources/bader-slides/4-RM.pdf), chapter 4 Buttazo    |
 
-<!-- |  6  |  Tue 24-SEP |  RM Liu & Layland (LL) Bound   |  [L4-RM-LLBOUND](http://cpen432.github.io/resources/bader-slides/4-RM.pdf), chapter 4 Buttazo    | -->
+
 <!-- |  7  |  Thu 26-SEP | RM Hyperbolic, DM, Response Time Analysis |  [L5-RM-HB-DM-RTA](http://cpen432.github.io/resources/bader-slides/5-RM-hyperbolic+DM+response.pdf), chapter 4 Buttazo    | -->
 <!-- |  8  |  Tue 1-OCT |  EDF processor demand   |  [L6-EDF-DEMAND](http://cpen432.github.io/resources/bader-slides/6-EDF-exact.pdf), chapter 4 Buttazo    | -->
 <!-- |  9 |  Thu 3-OCT | What happened on Mars?   |  [L7-MARS](http://cpen432.github.io/resources/bader-slides/7-Mars.pdf)    | -->
