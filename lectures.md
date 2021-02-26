@@ -14,11 +14,13 @@ title: Lectures
 |  5  |  Thu 28-Jan |  Critical Instant + RM Optimality + EDF Optimality and Bound  |  [L3-RM-EDF-OPT](http://cpen432.github.io/resources/bader-slides/3-critical-instant+EDF.pdf), chapter 4 Buttazo |
 |  6  |  Tue 2-Feb |  RM Liu & Layland (LL) Bound   |  [L4-RM-LLBOUND](http://cpen432.github.io/resources/bader-slides/4-RM.pdf), chapter 4 Buttazo    |
 |  7  |  Thu 4-Feb | RM Hyperbolic, DM, Response Time Analysis |  [L5-RM-HB-DM-RTA](http://cpen432.github.io/resources/bader-slides/5-RM-hyperbolic+DM+response.pdf), chapter 4 Buttazo    |
-|  8  |  Tue 11-Feb |  EDF processor demand   |  [L6-EDF-DEMAND](http://cpen432.github.io/resources/bader-slides/6-EDF-exact.pdf), chapter 4 Buttazo    |
+|  8  |  Tue 9-Feb |  EDF processor demand   |  [L6-EDF-DEMAND](http://cpen432.github.io/resources/bader-slides/6-EDF-exact.pdf), chapter 4 Buttazo    |
+|  9  |  Thu 11-Feb |  EDF processor demand   |  [L6-EDF-DEMAND](http://cpen432.github.io/resources/bader-slides/6-EDF-exact.pdf), chapter 4 Buttazo    |
+|  10 |  Tue 23-FEB | What happened on Mars?   |  [L7-MARS](http://cpen432.github.io/resources/bader-slides/7-Mars.pdf)    |
+|  11 |  Thu 25-Feb |  Resource Access Protocols-1 (NPP + HLP + PIP)  |  [L8-RESOURCE](http://cpen432.github.io/resources/bader-slides/8-ResourceSharing.pdf), Buttazo chapter 7   |
+|  12 |  Tue 2-Mar |  Resource Access Protocols-2  (PIP + SRP)   |  ^  |
 
-<!-- |  9 |  Thu 3-OCT | What happened on Mars?   |  [L7-MARS](http://cpen432.github.io/resources/bader-slides/7-Mars.pdf)    | -->
-<!-- |  10 |  Tue 8-OCT |  Resource Access Protocols-1 (NPP + HLP + PIP)  |  [L8-RESOURCE](http://cpen432.github.io/resources/bader-slides/8-ResourceSharing.pdf), Buttazo chapter 7   | -->
-<!-- |  11 |  Thu 10-OCT |  Resource Access Protocols-2  (PIP + SRP)   |  ^  | -->
+
 <!-- |  12 |  Tue 15-OCT |  Task Servers    |  [L9-APERIODIC-SERVERS](http://cpen432.github.io/resources/bader-slides/9-TaskServers.pdf), Buttazo chapters 5 & 6   | -->
 <!-- |  13 |  Thu 17-OCT |  No lecture   |      | -->
 <!-- |  14 |  Tue 22-OCT |  Soft real-time   |   [L10-SOFT](http://cpen432.github.io/resources/bader-slides/10-SoftRealTime.pdf)   | -->
