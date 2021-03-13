@@ -18,18 +18,17 @@ title: Lectures
 |  9  |  Thu 11-Feb |  EDF processor demand   |  [L6-EDF-DEMAND](http://cpen432.github.io/resources/bader-slides/6-EDF-exact.pdf), chapter 4 Buttazo    |
 |  10 |  Tue 23-FEB | What happened on Mars?   |  [L7-MARS](http://cpen432.github.io/resources/bader-slides/7-Mars.pdf)    |
 |  11 |  Thu 25-Feb |  Resource Access Protocols-1 (NPP + HLP + PIP)  |  [L8-RESOURCE](http://cpen432.github.io/resources/bader-slides/8-ResourceSharing.pdf), Buttazo chapter 7   |
-|  12 |  Tue 2-Mar |  Resource Access Protocols-2  (PIP + SRP)   |  ^  |
+|  12 |  Tue 2-Mar |  Resource Access Protocols-2  (PCP + SRP)   |  ^  |
+|  13 |  Tue 9-Mar |  Task Servers    |  [L9-APERIODIC-SERVERS](http://cpen432.github.io/resources/bader-slides/9-TaskServers.pdf), Buttazo chapters 5 & 6   |
+|  14 |  Thu 11-Mar |  ^^   |      |
 
-
-<!-- |  12 |  Tue 15-OCT |  Task Servers    |  [L9-APERIODIC-SERVERS](http://cpen432.github.io/resources/bader-slides/9-TaskServers.pdf), Buttazo chapters 5 & 6   | -->
-<!-- |  13 |  Thu 17-OCT |  No lecture   |      | -->
-<!-- |  14 |  Tue 22-OCT |  Soft real-time   |   [L10-SOFT](http://cpen432.github.io/resources/bader-slides/10-SoftRealTime.pdf)   | -->
-<!-- |  15 |  Thu 24-OCT  |  Soft real-time continued   |      | -->
-<!-- |  16 |  Tue 29-OCT | Multistage distributed real-time systems   |  [L12-MULTISTAGE](http://cpen432.github.io/resources/bader-slides/12-MultiStage.pdf)   | -->
-<!-- |  17 |  Thu 31-OCT  |  Multiprocessor scheduling - 1    | [L11-MULTIPROCESSOR](http://cpen432.github.io/resources/bader-slides/11-Multiprocessors.pdf)   | -->
-<!-- |  18 |  Tue 5-NOV |  Multiprocessor scheduling - 2   |      | -->
-<!-- |  19 |  Thu 7-NOV  |  Reliability and fault tolerance - 1   |  [L13-RELIABILITY](http://cpen432.github.io/resources/bader-slides/13-Reliability.pdf)    |  -->
-<!-- |  20 |  Tue 12-NOV |  Reliability and fault tolerance - 2   |     | -->
+<!-- |  15 |  Tue 16-Mar |  Soft real-time   |   [L10-SOFT](http://cpen432.github.io/resources/bader-slides/10-SoftRealTime.pdf)   | -->
+<!-- |  16 |  Thu 18-Mar  |  Soft real-time continued   |      | -->
+<!-- |  16 |  Tue 23-Mar | Multistage distributed real-time systems   |  [L12-MULTISTAGE](http://cpen432.github.io/resources/bader-slides/12-MultiStage.pdf)   | -->
+<!-- |  17 |  Thu 25-Mar  |  Multiprocessor scheduling - 1    | [L11-MULTIPROCESSOR](http://cpen432.github.io/resources/bader-slides/11-Multiprocessors.pdf)   | -->
+<!-- |  18 |  Tue 30-Mar |  Multiprocessor scheduling - 2   |      | -->
+<!-- |  19 |  Thu 8-Apr  |  Reliability and fault tolerance - 1   |  [L13-RELIABILITY](http://cpen432.github.io/resources/bader-slides/13-Reliability.pdf)    |  -->
+<!-- |  20 |  Tue 13-Apr |  Reliability and fault tolerance - 2   |     | -->
 <!-- |  21 |  Thu 14-NOV  | Reliability and fault tolerance - 3  |   |  -->
 <!-- |  22 |  Tue 19-NOV |  System/Software Safety - 1. **Guest Lecture**: Simon Diemert, [Critical Systems Labs Inc.](https://www.criticalsystemslabs.com)  |  [L14-SAFETY](http://cpen432.github.io/resources/bader-slides/14-safety.pdf)    | -->
 <!-- |  23 |  Thu 21-NOV  |  System/Software Safety - 2. **Guest Lecture**: Simon Diemert  |      | -->
