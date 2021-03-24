@@ -22,11 +22,12 @@ title: Lectures
 |  13 |  Tue 9-Mar |  Task Servers    |  [L9-APERIODIC-SERVERS](http://cpen432.github.io/resources/bader-slides/9-TaskServers.pdf), Buttazo chapters 5 & 6   |
 |  14 |  Thu 11-Mar |  ^^   |      |
 |  15 |  Tue 16-Mar |  Soft real-time   |   [L10-SOFT](http://cpen432.github.io/resources/bader-slides/10-SoftRealTime.pdf)   |
-|  16 |  Thu 18-Mar  |  Soft real-time continued   |      |
-|  17 |  Tue 23-Mar | Multistage distributed real-time systems   |  [L12-MULTISTAGE](http://cpen432.github.io/resources/bader-slides/12-MultiStage.pdf)   |
+|  16 |  Thu 18-Mar  |  ^^   |      |
+|  17 |  Tue 23-Mar  |  Multiprocessor scheduling - 1    | [L11-MULTIPROCESSOR](http://cpen432.github.io/resources/bader-slides/11-Multiprocessors.pdf)   |
+|  18 |  Thu 25-Mar |  Multiprocessor scheduling - 2   |  ^^    |
+|  19 |  The 30-Mar | Multistage distributed real-time systems   |  [L12-MULTISTAGE](http://cpen432.github.io/resources/bader-slides/12-MultiStage.pdf)   |
 
-<!-- |  17 |  Thu 25-Mar  |  Multiprocessor scheduling - 1    | [L11-MULTIPROCESSOR](http://cpen432.github.io/resources/bader-slides/11-Multiprocessors.pdf)   | -->
-<!-- |  18 |  Tue 30-Mar |  Multiprocessor scheduling - 2   |      | -->
+
 <!-- |  19 |  Thu 8-Apr  |  Reliability and fault tolerance - 1   |  [L13-RELIABILITY](http://cpen432.github.io/resources/bader-slides/13-Reliability.pdf)    |  -->
 <!-- |  20 |  Tue 13-Apr |  Reliability and fault tolerance - 2   |     | -->
 <!-- |  21 |  Thu 14-NOV  | Reliability and fault tolerance - 3  |   |  -->
