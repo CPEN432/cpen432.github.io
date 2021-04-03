@@ -9,8 +9,7 @@ title: Assignments
 |  1  |  Jan 29       |  Feb 10, 11:59 p.m.   |  [WA1](http://cpen432.github.io/assignments/cpen432w21-wa1.pdf)    |
 |  2  |  Feb 26       |  Mar 6, 11:59 p.m.   |  [WA2](http://cpen432.github.io/assignments/cpen432-wa2.pdf) |
 |  3  |  Mar 21       |  April 1, 11:59 p.m.   |  [WA3](https://www.dropbox.com/s/xtsidg09vikipmo/cpen432-wa3.pdf?dl=0) |
-
-<!-- |  4  |  Nov 15       |  Nov 27, 11:59 p.m.   |  [WA4](http://cpen432.github.io/assignments/cpen432-wa4.pdf) | -->
+|  4  |  April 3       |  April 11, 11:59 p.m.   |  [WA4](https://www.dropbox.com/s/3wp8fjqlzxbnf4p/cpen432-wa4.pdf?dl=0) |
 
 
 ### Policies and Submission Instructions
