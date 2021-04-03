@@ -25,13 +25,12 @@ title: Lectures
 |  16 |  Thu 18-Mar  |  ^^   |      |
 |  17 |  Tue 23-Mar  |  Multiprocessor scheduling - 1    | [L11-MULTIPROCESSOR](http://cpen432.github.io/resources/bader-slides/11-Multiprocessors.pdf)   |
 |  18 |  Thu 25-Mar |  Multiprocessor scheduling - 2   |  ^^    |
-|  19 |  The 30-Mar | Multistage distributed real-time systems   |  [L12-MULTISTAGE](http://cpen432.github.io/resources/bader-slides/12-MultiStage.pdf)   |
+|  19 | Tue 30-Mar | Multistage distributed real-time systems   |  [L12-MULTISTAGE](http://cpen432.github.io/resources/bader-slides/12-MultiStage.pdf)   |
+|  20 | Thu 30-Mar | ^^   |    |
+|  21 |  Tue 6-Apr  |  Reliability and fault tolerance - 1   |  [L13-RELIABILITY](http://cpen432.github.io/resources/bader-slides/13-Reliability.pdf)    |
+|  22 |  Thu 8-Apr |  Reliability and fault tolerance - 2   |     |
+|  23 |  Tue 13-Apr |  System/Software Safety **Guest Lecture**: Stephen Thomas, Autonomy Safety Architecture & Analysis Lead, [Motional Ltd.](https://www.motional.com)  |     |
 
-
-<!-- |  19 |  Thu 8-Apr  |  Reliability and fault tolerance - 1   |  [L13-RELIABILITY](http://cpen432.github.io/resources/bader-slides/13-Reliability.pdf)    |  -->
-<!-- |  20 |  Tue 13-Apr |  Reliability and fault tolerance - 2   |     | -->
-<!-- |  21 |  Thu 14-NOV  | Reliability and fault tolerance - 3  |   |  -->
-<!-- |  22 |  Tue 19-NOV |  System/Software Safety - 1. **Guest Lecture**: Simon Diemert, [Critical Systems Labs Inc.](https://www.criticalsystemslabs.com)  |  [L14-SAFETY](http://cpen432.github.io/resources/bader-slides/14-safety.pdf)    | -->
 <!-- |  23 |  Thu 21-NOV  |  System/Software Safety - 2. **Guest Lecture**: Simon Diemert  |      | -->
 <!-- |  24 |  Tue 26-NOV |  Review Session   |      | -->
 <!-- |  25 |  Thu 28-NOV  |  ?   |      | -->
