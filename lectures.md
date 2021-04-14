@@ -29,7 +29,7 @@ title: Lectures
 |  20 | Thu 30-Mar | ^^   |    |
 |  21 |  Tue 6-Apr  |  Reliability and fault tolerance - 1   |  [L13-RELIABILITY](http://cpen432.github.io/resources/bader-slides/13-Reliability.pdf)    |
 |  22 |  Thu 8-Apr |  Reliability and fault tolerance - 2   |     |
-|  23 |  Tue 13-Apr |  System/Software Safety. Slides courtesy of Simon Diemert,Safety Critical Systems (CSL) |  [L13-SAFETY](http://cpen432.github.io/resources/bader-slides/14-safety.pdf)   |
+|  23 |  Tue 13-Apr |  System/Software Safety. Slides courtesy of Simon Diemert,Safety Critical Systems (CSL) |  [L14-SAFETY](http://cpen432.github.io/resources/bader-slides/14-safety.pdf)   |
 
 <!-- |  23 |  Thu 21-NOV  |  System/Software Safety - 2. **Guest Lecture**: Simon Diemert  |      | -->
 <!-- |  24 |  Tue 26-NOV |  Review Session   |      | -->
