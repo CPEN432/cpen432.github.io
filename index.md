@@ -5,21 +5,21 @@ subtitle: 2020-2021 Winter Term 1
 use-site-title: false
 ---
 
-**Lecture Time:** Tuesday Thursday, 6:00pm-7:30pm. Lectures start Tuesday Jan 12  
+<!-- **Lecture Time:** Tuesday Thursday, 6:00pm-7:30pm. Lectures start Tuesday Jan 12  
 **Lecture Room:** This course is delivered fully online. 
 Links to zoom lectures on course Canvas page: <https://canvas.ubc.ca/courses/63247>
+ -->
 
-
-**Tutorial Time:** Wednesday, 9:00am-11:00am. First Tutorial: Jan 20
+<!-- **Tutorial Time:** Wednesday, 9:00am-11:00am. First Tutorial: Jan 20 -->
 <!-- **Tutorial Room:** Frank Forward 317   -->
 
 
-**Instructor:** [Bader Alahmad](https://blogs.ubc.ca/bader), [bader@ece.ubc.ca](mailto:bader@ece.ubc.ca)  
+<!-- **Instructor:** [Bader Alahmad](https://blogs.ubc.ca/bader), [bader@ece.ubc.ca](mailto:bader@ece.ubc.ca)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Office hours: TBD  
+ -->
 
-
-**TAs:** TBD <!-- TBD Nusrat Mehajabin   -->
-	<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Office hours: Tue 10:00am-11:00am, MCLD 211   -->
+<!-- **TAs:** TBD TBD Nusrat Mehajabin -->
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Office hours: Tue 10:00am-11:00am, MCLD 211 -->
 	
   
 ### Course Description
