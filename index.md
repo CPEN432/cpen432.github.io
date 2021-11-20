@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CPEN 432 - Real-Time System Design
-subtitle: 2020-2021 Winter Term 1
+subtitle: 2021-2022 Winter Term 2
 use-site-title: false
 ---
 
