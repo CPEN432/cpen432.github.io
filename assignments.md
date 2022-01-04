@@ -2,7 +2,8 @@
 title: Assignments
 ---
 
-### Written Assignments
+TBA
+<!-- ### Written Assignments
 
  | **No.** | **Handout** | **Due** | **Link** | 
 |:---:|:-------:|:---:|:----:|:----:|
@@ -17,3 +18,4 @@ title: Assignments
 * You are required to typeset your solutions, preferrably using \\( \LaTeX \\). You can either use a local \\( \LaTeX \\) installation on you machine, or the web-based [ShareLaTeX](https://www.sharelatex.com). Another (maybe easier) option for typesetting is [Madoko](https://www.madoko.net/), which is a _markdown_ processor with immediate \\( \LaTeX \\) support (it produces beautiful pdf and html pages);
 * You will be submitting your typeset solutions to gradescope;
 * You may discuss solutions with your colleagues, but the final write-up should be your own. 
+ -->
