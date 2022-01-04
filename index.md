@@ -5,25 +5,24 @@ subtitle: 2021-2022 Winter Term 2
 use-site-title: false
 ---
 
-<!-- **Lecture Time:** Tuesday Thursday, 6:00pm-7:30pm. Lectures start Tuesday Jan 12  
-**Lecture Room:** This course is delivered fully online. 
-Links to zoom lectures on course Canvas page: <https://canvas.ubc.ca/courses/63247>
- -->
-
-<!-- **Tutorial Time:** Wednesday, 9:00am-11:00am. First Tutorial: Jan 20 -->
-<!-- **Tutorial Room:** Frank Forward 317   -->
-
-
-<!-- **Instructor:** [Bader Alahmad](https://blogs.ubc.ca/bader), [bader@ece.ubc.ca](mailto:bader@ece.ubc.ca)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Office hours: TBD  
- -->
-
-<!-- **TAs:** TBD TBD Nusrat Mehajabin -->
-<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Office hours: Tue 10:00am-11:00am, MCLD 211 -->
-	
   
-### Course Description
+### Overview
 In this course we will be studying the theoretical underpinnings of real-time compute systems, as well as practical aspects related to embedded systems. The course covers a wide range of topics, including scheduling theory (analysis and design of task scheduling algorithms and schedulability analysis), resource sharing protocols, real-time operating system principles, fault-tolerance and reliability, and software intensive safety critical systems. Students can expect to get a hands-on experience programming state-of-the-art embedded systems and working with real-time operating systems and industry-strength development tools.
+
+
+### Course Staff and Logistics
+
+**Instructor:** [Arpan Gujarati](https://arpangujarati.github.io/) ([arpanbg@cs.ubc.ca](mailto:arpanbg@cs.ubc.ca))<br>Office hours: TBA.
+
+**Teaching Assistant:** Geetika Batta ([geetikb@ece.ubc.ca](mailto:geetikb@ece.ubc.ca))<br>Office hours: TBA.
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Office hours: Tue 10:00am-11:00am, MCLD 211 -->
+
+**Class Information:**
++ Lectures will be on Mondays and Wednesdays, from 9:30 AM to 11:00 AM, starting on Tuesday, Jan 10.
++ Tutorials will be on Fridays, from 10:00 AM to 12:00 Noon, starting on Friday, Jan 14.
++ Lectures and tutorials will be online (for now), Zoom links TBA.
+
+<!-- on course Canvas page: <https://canvas.ubc.ca/courses/63247> -->
 
 
 ### Textbook
