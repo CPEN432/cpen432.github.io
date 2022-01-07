@@ -20,7 +20,8 @@ In this course we will be studying the theoretical underpinnings of real-time co
 **Class Information:**
 + Lectures will be on Mondays and Wednesdays, from 9:30 AM to 11:00 AM, starting on Tuesday, Jan 10.
 + Tutorials will be on Fridays, from 10:00 AM to 12:00 Noon, starting on Friday, Jan 14.
-+ Lectures and tutorials will be online (for now), Zoom links TBA.
++ Lectures and tutorials will be online (until furter announcements). Here is the [Zoom link](https://ubc.zoom.us/j/62714090567?pwd=bEFpNjRYQ0orazhRc0hLMTZYYi9SZz09).
++ We will be using Piazza for class discussion. [Signup](https://piazza.com/ubc.ca/winterterm22021/cpen432) using the access code LIU&LAYLAND.
 
 <!-- on course Canvas page: <https://canvas.ubc.ca/courses/63247> -->
 
