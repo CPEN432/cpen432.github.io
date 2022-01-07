@@ -4,9 +4,9 @@ title: Lectures
 
 ### Class meetings
 
-| **No.** | **Date** | **Zoom Link** | **Topics** | **Readings** |
-|:-------:|:---------|:-------------:|:----------:|:------------:|
-|  1  | Mon 10-Jan | TBA | Introduction | TBA |
+| **No.** | **Date** | **Topics** | **Readings** |
+|:-------:|:---------|:----------:|:------------:|
+|  1  | Mon 10-Jan | Introduction | TBA |
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
