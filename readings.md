@@ -1,6 +1,17 @@
 ---
 title: Readings
 ---
+
+### Textbook
+*Giorgio C. Buttazzo, Hard Real-Time Computing Systems, 3rd edition.*<br>
+The electronic version is accessible via [UBC Library](https://go.exlibris.link/YzpnxKfG).<br>
+Additional readings and material not covered in the text will be posted below.
+
+<!-- **Optional:** _Jane W. S. W. Liu. 2000. Real-Time Systems_.   -->
+
+
+### Additional Readings
+
 TBA
 
 <!-- ### C -->
