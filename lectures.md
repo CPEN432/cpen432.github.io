@@ -6,7 +6,7 @@ title: Lectures
 
 | **No.** | **Date** | **Topics** | **Readings** |
 |:-------:|:---------|:----------:|:------------:|
-|  1  | Mon 10-Jan | Introduction | TBA |
+|  1  | Mon 10-Jan | Introduction | [L1-Introduction](http://cpen432.github.io/resources/bader-slides/1-introduction.pdf) |
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
