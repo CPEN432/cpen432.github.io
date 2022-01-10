@@ -24,6 +24,7 @@ description: Webpage of CPEN 432 at UBC
 # List of links in the navigation bar
 navbar-links:
   Assignments: "assignments"
+  Projects: "projects"
   Resources:
     - Lectures: "lectures"
     - Readings: "readings"
