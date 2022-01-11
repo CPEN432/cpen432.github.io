@@ -4,9 +4,9 @@ title: Lectures
 
 ### Class meetings
 
-| **No.** | **Date** | **Topics** | **Readings** |
-|:-------:|:---------|:----------:|:------------:|
-|  1  | Mon 10-Jan | Introduction | [L1-Introduction](http://cpen432.github.io/resources/gujarati-slides/1-introduction.pdf) |
+| **No.** | **Date** | **Topics** | **Slides** | **Readings** |
+|:-------:|:---------|:----------:|:----------:|:------------:|
+|  1  | Mon 10-Jan | Introduction | [L1-Introduction](http://cpen432.github.io/resources/gujarati-slides/1-introduction.pdf) | Buttazzo 1.1 and 1.2 |
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
