@@ -33,11 +33,14 @@ In this course we will be studying the theoretical underpinnings of real-time co
 
 <!-- Additional readings and material not covered in the text will be posted in [readings](https://cpen432.github.io/readings) -->
 
+### Grading
 
-<!-- ### Projects -->
-<!-- There will be 4-5 programming assignments that collectively count towards 50% of your _raw_ final grade. The majority of the projects will involve writing bare-metal and system (kernel) code for the [Raspberry Pi Computing Platform](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/), using the C programming language. _Students should work in groups (3-4 students per group) to complete the projects. Only one submission per group is expected._ We will be using [Gitlab](https://www.gitlab.com "Gitlab") as the source control platform, so make sure you setup a Gitlab account as soon as possible. You will be assigned to a Gitlab group, which will contain your private project repositories. You will use Gitlab **Wiki** pages to write some required documentation and answer project-related questions (in addition to the code-level [Doxygen](http://www.stack.nl/~dimitri/doxygen/ "Doxygen") documentation that you will generate for every project).  -->
+#### Projects (40%)
+There will be 4-5 programming assignments that collectively count towards 40% of your _raw_ final grade. The majority of the projects will involve writing bare-metal and system (kernel) code for the [Raspberry Pi Computing Platform](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/), using the C programming language. Many projects will involve embedded programming and require knowledge of material that we will *not* discuss in class. You will be given all the resources you need, and, as an engineer in a senior year course, you are expected to go through hardware manuals, processor specs, etc, and figure things out on your own. The teaching staff will do their best to provide help and guidance. 
 
-<!-- Many projects will involve embedded programming and require knowledge of material that we will *not* discuss in class. You will be given all the resources you need, and, as an engineer in a senior year course, you are expected to go through hardware manuals, processor specs, etc, and figure things out on your own. The teaching staff will do their best to provide help and guidance.  -->
+_Students should work in groups (4-5 students per group) to complete the projects. Only one submission per group is expected._
+
+<!-- We will be using [Gitlab](https://www.gitlab.com "Gitlab") as the source control platform, so make sure you setup a Gitlab account as soon as possible. You will be assigned to a Gitlab group, which will contain your private project repositories. You will use Gitlab **Wiki** pages to write some required documentation and answer project-related questions (in addition to the code-level [Doxygen](http://www.stack.nl/~dimitri/doxygen/ "Doxygen") documentation that you will generate for every project).  -->
 
 <!-- #### Project Equipment -->
 <!-- Due to the unfortunate circumstances brought upon us by COVID-19, students are required to purchase their own kits for the projects. The equipment we will need for the project purposes include: -->
@@ -50,25 +53,15 @@ In this course we will be studying the theoretical underpinnings of real-time co
 <!-- **End Disclaimer**   -->
 
 
-<!-- ### Assignments -->
-<!-- There will be 4-5 theoretical [assignments](https://cpen432.github.io/assignments/), roughly every two weeks. The assignments will count towards 30% of your _raw_ final grade. The assignments should be completed individually, and a submission per student is expected. -->
+#### Assignments (30%)
+There will be 4-5 theoretical [assignments](https://cpen432.github.io/assignments/), roughly every two weeks. The assignments will count towards 30% of your _raw_ final grade. The assignments should be completed individually, and a submission per student is expected.
+
+#### Examinations (30%)
+There will be only a final exam (written) that counts towards 30% of your _raw_ final grade. The exam is open book. There is _no midterm_ exam.
 
 
-
-<!-- ### Examinations -->
-<!-- There will be only a final exam (written) that counts towards 20% of your _raw_ final grade. The exam is open book. <!-- The instructor reserves the right to assign a take-home exam for partial or full credit towards the final exam. -->
-<!-- **There is _no midterm_ exam.** -->
-
-
-
-<!-- ### Grading Scheme -->
-<!-- * **Assignments:** 30% -->
-<!-- * **Projects   :** 50% -->
-<!-- * **Final exam :** 20%   -->
-
-
-<!-- ### Tutorials -->
-<!-- You will use the tutorial time to work on the projects and ask any questions. Tutorials should serve as project checkpoints, during which we will discuss your progress. We will also use the time to present some additional material relating to embedded programming, as well as hold some problem solving sessions related to real-time system design (class material). -->
+### Tutorials
+You will use the tutorial time to work on the projects and ask any questions. Tutorials should serve as project checkpoints, during which we will discuss your progress. We will also use the time to present some additional material relating to embedded programming, as well as hold some problem solving sessions related to real-time system design (class material).
 
 
 ### Prerequisites
