@@ -6,8 +6,8 @@ title: Lectures
 
 | **No.** | **Date** | **Topics** | **Slides** | **Readings** |
 |:--------|:---------|:-----------|:-----------|:-------------|
-|  1  | 10 Jan | Introduction | [L1-Introduction](http://cpen432.github.io/resources/gujarati-slides/1-introduction.pdf) | Buttazzo 1.1 and 1.2 |
-|  2  | 12 Jan | Basics & Aperiodic Scheduling | | Buttazzo 2 and 3.1-3.4 |
+|  1  | 10 Jan | Introduction | [L1-Introduction](http://cpen432.github.io/resources/gujarati-slides/1-introduction.pdf) | Buttazzo 1.1, 1.2 |
+|  2  | 12 Jan | Basics & Aperiodic Scheduling | | Buttazzo 2, 3.1-3.4 |
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
