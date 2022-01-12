@@ -35,10 +35,8 @@ In this course we will be studying the theoretical underpinnings of real-time co
 
 ### Grading
 
-#### Projects (40%)
-There will be 4-5 programming assignments that collectively count towards 40% of your _raw_ final grade. The majority of the projects will involve writing bare-metal and system (kernel) code for the [Raspberry Pi Computing Platform](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/), using the C programming language. Many projects will involve embedded programming and require knowledge of material that we will *not* discuss in class. You will be given all the resources you need, and, as an engineer in a senior year course, you are expected to go through hardware manuals, processor specs, etc, and figure things out on your own. The teaching staff will do their best to provide help and guidance. 
-
-_Students should work in groups (4-5 students per group) to complete the projects. Only one submission per group is expected._
+**Projects (40%):**
+There will be 4-5 programming assignments. The majority of the projects will involve writing bare-metal and system (kernel) code for the [Raspberry Pi Computing Platform](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/), using the C programming language. Many projects will involve embedded programming and require knowledge of material that we will *not* discuss in class. You will be given all the resources you need, and, as an engineer in a senior year course, you are expected to go through hardware manuals, processor specs, etc, and figure things out on your own. The teaching staff will do their best to provide help and guidance. Students should work in groups (4-5 students per group) to complete the projects. Only one submission per group is expected.
 
 <!-- We will be using [Gitlab](https://www.gitlab.com "Gitlab") as the source control platform, so make sure you setup a Gitlab account as soon as possible. You will be assigned to a Gitlab group, which will contain your private project repositories. You will use Gitlab **Wiki** pages to write some required documentation and answer project-related questions (in addition to the code-level [Doxygen](http://www.stack.nl/~dimitri/doxygen/ "Doxygen") documentation that you will generate for every project).  -->
 
@@ -53,11 +51,10 @@ _Students should work in groups (4-5 students per group) to complete the project
 <!-- **End Disclaimer**   -->
 
 
-#### Assignments (30%)
-There will be 4-5 theoretical [assignments](https://cpen432.github.io/assignments/), roughly every two weeks. The assignments will count towards 30% of your _raw_ final grade. The assignments should be completed individually, and a submission per student is expected.
+**Assignments (30%):**
+There will be 4-5 theoretical [assignments](https://cpen432.github.io/assignments/), roughly every two weeks. The assignments should be completed individually.
 
-#### Examinations (30%)
-There will be only a final exam (written) that counts towards 30% of your _raw_ final grade. The exam is open book. There is _no midterm_ exam.
+**Final Exam (30%):** There will be only a final exam (written) and no midterm exam. The final exam will be open book.
 
 
 ### Tutorials
