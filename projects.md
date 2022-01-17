@@ -12,6 +12,14 @@ title: Project
 
 <!-- [README](https://gitlab.com/cpen432-wt2-2021-2022/p1/release/-/blob/main/README.md) | -->
 
+### Hardware
+
+We will provide you the following hardware for the project.
+
+1. TTL-to-USB Serial Debug Console Cable
+2. Rapberry Pi B2 Board + power adapter + MicroSD Card (for kernel flashing)
+3. Two plastic boxes to conveniently store the hardware
+
 ### Groups
 
 Form groups of five. You may use Piazza to find group members. Provide [GitLab](https://gitlab.com/) usernames of all group members to both instructors over email. Use subject line “[CPEN 432] Project Group Registration”. Let us know if you are unable to form a group by 19 January. After you have formed a group, one of the group members must collect the hardware. Schedule a five-minute meeting with both instructors over email for collecting the hardware. Use subject line “[CPEN 432] Hardware Collection”.
