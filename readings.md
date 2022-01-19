@@ -16,9 +16,9 @@ Additional readings and material not covered in the text will be posted below.
 
 Chung Laung Liu and James W. Layland. _"Scheduling algorithms for multiprogramming in a hard-real-time environment."_ Journal of the ACM (JACM) 20, no. 1 (1973): 46-61. [PDF](http://cpen432.github.io/resources/P1-liu-layland.pdf)
 
-<!-- ### C -->
-<!-- * _The C Programming Language_ - Brian Kernighan and Dennis Ritchie (classic) -->
-<!-- * _The C Book_ - Mike Banahan, Declan Brady and Mark Doran. Available for free [online](http://publications.gbdirect.co.uk/c_book/) and as a [pdf](http://publications.gbdirect.co.uk/c_book/thecbook.pdf). This book is well-written, with more emphasis on embedded system aspects.  -->
+#### C
+* _The C Programming Language_ - Brian Kernighan and Dennis Ritchie (classic)
+* _The C Book_ - Mike Banahan, Declan Brady and Mark Doran. Available for free [online](http://publications.gbdirect.co.uk/c_book/) and as a [pdf](http://publications.gbdirect.co.uk/c_book/thecbook.pdf). This book is well-written, with more emphasis on embedded system aspects. 
 
 #### Embedded Software Enigneering
 In completing the projects, you will observe and apply best software engineering practices for embedded software development. The material in [Philip Koopman's course 18-642: Embedded Software Engineering](https://users.ece.cmu.edu/~koopman/lectures/index.html) (available as both slides and Youtube videos) is an excellent resource on code quality, safety, and security considerations and practices pertaining to embedded software.
