@@ -20,31 +20,31 @@ Chung Laung Liu and James W. Layland. _"Scheduling algorithms for multiprogrammi
 <!-- * _The C Programming Language_ - Brian Kernighan and Dennis Ritchie (classic) -->
 <!-- * _The C Book_ - Mike Banahan, Declan Brady and Mark Doran. Available for free [online](http://publications.gbdirect.co.uk/c_book/) and as a [pdf](http://publications.gbdirect.co.uk/c_book/thecbook.pdf). This book is well-written, with more emphasis on embedded system aspects.  -->
 
-<!-- ### Embedded Software Enigneering -->
-<!-- In completing the projects, you will observe and apply best software engineering practices for embedded software development. The material in [Philip Koopman's course 18-642: Embedded Software Engineering](https://users.ece.cmu.edu/~koopman/lectures/index.html) (available as both slides and Youtube videos) is an excellent resource on code quality, safety, and security considerations and practices pertaining to embedded software. -->
+#### Embedded Software Enigneering
+In completing the projects, you will observe and apply best software engineering practices for embedded software development. The material in [Philip Koopman's course 18-642: Embedded Software Engineering](https://users.ece.cmu.edu/~koopman/lectures/index.html) (available as both slides and Youtube videos) is an excellent resource on code quality, safety, and security considerations and practices pertaining to embedded software.
 
 <!-- *A significant portion of your project grades will be based on the extent to which you apply these practices. **Regard this material as mandatory and examinable reading.***  -->
 
-<!-- ### Raspberry Pi: ARM and Peripherals  -->
-<!-- * BCM2835 ARM Peripherals \[[BCM2835.pdf](http://cpen432.github.io/resources/BCM2835.pdf)\] -->
-<!-- * BCM2836 ARM Peripherals \[[BCM2836.pdf](http://cpen432.github.io/resources/BCM2836.pdf)\] -->
-<!-- * ARM Architecture Reference Manual (ARMv7-A and ARMv7-R edition) \[[arm_arch_ref.pdf](http://cpen432.github.io/resources/arm_arch_ref.pdf)\] -->
-<!-- * Raspberry Pi 2 GPIO Header \[[GPIO_Pi2.png](http://cpen432.github.io/resources/GPIO_Pi2.png)\] -->
-<!-- * ARM Instruction Set \[[arm_isa_ref.pdf](http://cpen432.github.io/resources/arm_isa_ref.pdf)\] -->
-<!-- * GNU ARM Assembler Quick Reference \[[gnu_arm_ref.pdf](http://cpen432.github.io/resources/gnu_arm_ref.pdf)\] -->
-<!-- * GDB Quick Reference (GDB Version 5) \[[gdb_cmd_ref.pdf](http://cpen432.github.io/resources/gdb_cmd_ref.pdf)\]  -->
-<!-- * ARM Cortex-A Series Programmer's Guide Version 4.0 \[[arm-cortex-a-prog-guide-v4.pdf](http://cpen432.github.io/resources/arm-cortex-a-prog-guide-v4.pdf)\]  -->
-<!-- * Cortex-A7 MPCore Technical Reference Manual \[[arm-cortex-a7-mpcore-technical-reference-manual.pdf](http://cpen432.github.io/resources/arm-cortex-a7-mpcore-technical-reference-manual.pdf)\]  -->
+#### Raspberry Pi: ARM and Peripherals 
+* BCM2835 ARM Peripherals \[[BCM2835.pdf](http://cpen432.github.io/resources/BCM2835.pdf)\]
+* BCM2836 ARM Peripherals \[[BCM2836.pdf](http://cpen432.github.io/resources/BCM2836.pdf)\]
+* ARM Architecture Reference Manual (ARMv7-A and ARMv7-R edition) \[[arm_arch_ref.pdf](http://cpen432.github.io/resources/arm_arch_ref.pdf)\]
+* Raspberry Pi 2 GPIO Header \[[GPIO_Pi2.png](http://cpen432.github.io/resources/GPIO_Pi2.png)\]
+* ARM Instruction Set \[[arm_isa_ref.pdf](http://cpen432.github.io/resources/arm_isa_ref.pdf)\]
+* GNU ARM Assembler Quick Reference \[[gnu_arm_ref.pdf](http://cpen432.github.io/resources/gnu_arm_ref.pdf)\]
+* GDB Quick Reference (GDB Version 5) \[[gdb_cmd_ref.pdf](http://cpen432.github.io/resources/gdb_cmd_ref.pdf)\] 
+* ARM Cortex-A Series Programmer's Guide Version 4.0 \[[arm-cortex-a-prog-guide-v4.pdf](http://cpen432.github.io/resources/arm-cortex-a-prog-guide-v4.pdf)\] 
+* Cortex-A7 MPCore Technical Reference Manual \[[arm-cortex-a7-mpcore-technical-reference-manual.pdf](http://cpen432.github.io/resources/arm-cortex-a7-mpcore-technical-reference-manual.pdf)\] 
 
-<!-- ### Lecture notes on embedded systems, Raspberry Pi, and the ARM processor (courtesy of [Anthony Rowe of CMU](https://users.ece.cmu.edu/~agr/)) -->
+#### Lecture notes on embedded systems, Raspberry Pi, and the ARM processor (courtesy of [Anthony Rowe of CMU](https://users.ece.cmu.edu/~agr/))
 
-<!-- 1. [Intro](http://cpen432.github.io/resources/L1-Intro.pdf) -->
-<!-- 2. [ARM Architecture](http://cpen432.github.io/resources/L2-ARM-architecture.pdf) -->
-<!-- 3. [ARM Assembly](http://cpen432.github.io/resources/L3-ARM-assembly.pdf) -->
-<!-- 4. [ARM Assembly continued + MMIO](http://cpen432.github.io/resources/L4-ARM-assembly+MMIO.pdf) -->
-<!-- 5. [Serial Buses](http://cpen432.github.io/resources/L5-Serial-Buses.pdf) -->
-<!-- 6. [Timers and Interrupts](http://cpen432.github.io/resources/L6-Timers-and-Interrupts.pdf) -->
-<!-- 7. [Code Optimization and Profiling](http://cpen432.github.io/resources/L7-Arm-assembly-optimization-and-profiling.pdf) -->
+1. [Intro](http://cpen432.github.io/resources/L1-Intro.pdf)
+2. [ARM Architecture](http://cpen432.github.io/resources/L2-ARM-architecture.pdf)
+3. [ARM Assembly](http://cpen432.github.io/resources/L3-ARM-assembly.pdf)
+4. [ARM Assembly continued + MMIO](http://cpen432.github.io/resources/L4-ARM-assembly+MMIO.pdf)
+5. [Serial Buses](http://cpen432.github.io/resources/L5-Serial-Buses.pdf)
+6. [Timers and Interrupts](http://cpen432.github.io/resources/L6-Timers-and-Interrupts.pdf)
+7. [Code Optimization and Profiling](http://cpen432.github.io/resources/L7-Arm-assembly-optimization-and-profiling.pdf)
 
 <!-- ### Discrete Mathematics and Proofs ### -->
 <!-- [Mathematics for Computer Science, by Lehman, Leighton and Meyer](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf) -->
