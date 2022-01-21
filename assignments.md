@@ -2,7 +2,23 @@
 title: Assignments
 ---
 
-TBA
+### Written Homework Assignments
+
+| **No.** | **Release Date** | **Deadline** | **PDF** | **Source** |
+|:--------|:-----------------|:-------------|:--------|:-----------|
+|  1  | 23 Jan | 8 Feb | TBA | TBA |
+
+### Submission Instructions
+
+Assignments are to be handed in individually.
+
+You are required to typeset your solutions using LaTeX. You can either use a local LaTeX installation on you machine, or use [Overleaf](https://www.overleaf.com/). Another (maybe easier) option for typesetting is [Madoko](https://www.madoko.net/), which is a _markdown_ processor with immediate \\( \LaTeX \\) support (it produces beautiful pdf and html pages). You can also write your answers in the source file that we will provide along with the PDF.
+
+Please submit your solutions via Canvas. Detailed instructions TBA.
+
+### Late Assignment Submissions
+
+Each student is allocated an automatic extension of 4 calendar days. Students can use the extension on any homework assignment in increments of 1 day. E.g., you can hand in one homework assignment 4 days late, or one assignment 2 days late and two assignments 1 day late, or 4 project assignments 1 day late. This extension is to be used for incidental occurrences, so **please do not ask us for any more extensions due to any incidental circumstances.**
 
 <!-- ### Written Assignments -->
 
