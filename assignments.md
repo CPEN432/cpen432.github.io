@@ -14,7 +14,7 @@ Assignments are to be handed in individually.
 
 You are required to typeset your solutions using LaTeX. You can either use a local LaTeX installation on your machine, or use [Overleaf](https://www.overleaf.com/). Another (maybe easier) option for typesetting is [Madoko](https://www.madoko.net/), which is a _markdown_ processor with immediate LaTeX support (it produces beautiful pdf and html pages). You can also write your answers in the source file that we will provide along with the PDF.
 
-Please submit your solutions via Canvas as a 1 file (you may want to zip the file if it is more than 1) with the file name as LASTNAME_StudentNumber.
+Please submit your solutions via Canvas as a 1 file (you may want to zip the files if it is more than 1) with the file name as LASTNAME_StudentNumber.
 
 ### Late Assignment Submissions
 
