@@ -1,8 +1,6 @@
 ---
-title: Project
+title: Projects
 ---
-
-## Projects
 
 ### Embedded Programming Assignments
 
