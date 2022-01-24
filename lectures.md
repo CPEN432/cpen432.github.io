@@ -4,12 +4,13 @@ title: Lectures
 
 ### Class meetings
 
-| **No.** | **Date** | **Topics** | **Slides** | **Readings** |
+| **No.** | **Date** | **Topics** | **Slides** | **Textbook Sections** |
 |:--------|:---------|:-----------|:-----------|:-------------|
-|  1  | 10 Jan | Introduction | [L1](http://cpen432.github.io/resources/gujarati-slides/1-introduction.pdf) | Buttazzo 1.1, 1.2 |
-|  2  | 12 Jan | Basics & Aperiodic Scheduling | [L2](http://cpen432.github.io/resources/gujarati-slides//2-basics-and-aperiodic.pdf) | Buttazzo 2.1-2.4, 3.1-3.4 |
+|  1  | 10 Jan | Introduction | [L1](http://cpen432.github.io/resources/gujarati-slides/1-introduction.pdf) | 1.1, 1.2 |
+|  2  | 12 Jan | Basics & Aperiodic Scheduling | [L2](http://cpen432.github.io/resources/gujarati-slides//2-basics-and-aperiodic.pdf) | 2.1-2.4, 3.1-3.4 |
 |  3  | 17 Jan | ^ | ^ | ^ |
-|  4  | 19 Jan | Periodic Scheduling (TS and RM) | [L4](http://cpen432.github.io/resources/gujarati-slides//4-periodic.pdf), [notes](http://cpen432.github.io/resources/gujarati-slides//4-notes.pdf) | Buttazzo 4.1-4.3.1 |
+|  4  | 19 Jan | Periodic Scheduling (TS, RM) | [L4](http://cpen432.github.io/resources/gujarati-slides//4-periodic.pdf), [notes](http://cpen432.github.io/resources/gujarati-slides//4-notes.pdf) | 4.1-4.3.1 |
+|  5  | 24 Jan | Periodic Schedulking (RM, EDF) | L5 | 4.3.2, 4.4 |
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
