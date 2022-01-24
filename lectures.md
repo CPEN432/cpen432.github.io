@@ -10,7 +10,7 @@ title: Lectures
 |  2  | 12 Jan | Basics & Aperiodic Scheduling | [L2](http://cpen432.github.io/resources/gujarati-slides//2-basics-and-aperiodic.pdf) | 2.1-2.4, 3.1-3.4 |
 |  3  | 17 Jan | ^ | ^ | ^ |
 |  4  | 19 Jan | Periodic Scheduling (TS, RM) | [L4](http://cpen432.github.io/resources/gujarati-slides//4-periodic.pdf), [notes](http://cpen432.github.io/resources/gujarati-slides//4-notes.pdf) | 4.1-4.3.1 |
-|  5  | 24 Jan | Periodic Schedulking (RM, EDF) | [L5](http://cpen432.github.io/resources/gujarati-slides//5-periodic.pdf) | 4.3.2, 4.4 |
+|  5  | 24 Jan | Periodic Scheduling (RM, EDF) | [L5](http://cpen432.github.io/resources/gujarati-slides//5-periodic.pdf) | 4.3.2, 4.4 |
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
