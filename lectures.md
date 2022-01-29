@@ -12,6 +12,7 @@ title: Lectures
 |  4  | 19 Jan | Periodic Scheduling (TS, RM) | [L4](http://cpen432.github.io/resources/gujarati-slides//4-periodic.pdf), [notes](http://cpen432.github.io/resources/gujarati-slides//4-notes.pdf) | 4.1-4.3.1 |
 |  5  | 24 Jan | Periodic Scheduling (RM, EDF) | [L5](http://cpen432.github.io/resources/gujarati-slides//5-periodic.pdf), [notes](http://cpen432.github.io/resources/gujarati-slides//5-notes.pdf) | 4.3.2, 4.4 |
 |  6  | 26 Jan | Periodic Scheduling (DM) | [L6](http://cpen432.github.io/resources/gujarati-slides//6-periodic.pdf), [notes](http://cpen432.github.io/resources/gujarati-slides//6-notes.pdf) | 4.5 |
+|  7  | 31 Jan | ^ | ^ | ^ |
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
