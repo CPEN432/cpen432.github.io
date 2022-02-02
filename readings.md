@@ -16,7 +16,7 @@ Additional readings and material not covered in the text will be posted below.
 
 Chung Laung Liu and James W. Layland. _"Scheduling algorithms for multiprogramming in a hard-real-time environment."_ Journal of the ACM (JACM) 20, no. 1 (1973): 46-61. [PDF](http://cpen432.github.io/resources/P1-liu-layland.pdf)
 
-Robert I. Davis, Alan Burns, Reinder J. Bril, and Johan J. Lukkien. _"Controller Area Network (CAN) schedulability analysis: Refuted, revisited and revised."_ eal-Time Systems 35, no. 3 (2007): 239-272. [PDF](http://cpen432.github.io/resources/P2-davis-etal.pdf)
+Robert I. Davis, Alan Burns, Reinder J. Bril, and Johan J. Lukkien. _"Controller Area Network (CAN) schedulability analysis: Refuted, revisited and revised."_ Real-Time Systems 35, no. 3 (2007): 239-272. [PDF](http://cpen432.github.io/resources/P2-davis-etal.pdf)
 
 #### C
 * _The C Programming Language_ - Brian Kernighan and Dennis Ritchie (classic)
