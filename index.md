@@ -12,16 +12,20 @@ In this course we will be studying the theoretical underpinnings of real-time co
 
 ### Course Staff and Logistics
 
-**Instructor:** [Arpan Gujarati](https://arpangujarati.github.io/) ([arpanbg@cs.ubc.ca](mailto:arpanbg@cs.ubc.ca))<br>Office hours: TBA.
+**Instructor:** [Arpan Gujarati](https://arpangujarati.github.io/) ([arpanbg@cs.ubc.ca](mailto:arpanbg@cs.ubc.ca))
 
-**Teaching Assistant:** Geetika Batta ([geetikb@ece.ubc.ca](mailto:geetikb@ece.ubc.ca))<br>Office hours: TBA.
+**Teaching Assistant:** Geetika Batta ([geetikb@ece.ubc.ca](mailto:geetikb@ece.ubc.ca))
 <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Office hours: Tue 10:00am-11:00am, MCLD 211 -->
 
 **Class Information:**
 + Lectures will be on Mondays and Wednesdays, from 9:30 AM to 11:00 AM, starting on Tuesday, Jan 10.
+  + Starting Monday, Feb 7, lectures will be in-person, in the Neville Scarfe building, room no. 1021.   
 + Tutorials will be on Fridays, from 10:00 AM to 12:00 Noon, starting on Friday, Jan 14.
-+ Lectures and tutorials will be online (until furter announcements). Here is the [Zoom link](https://ubc.zoom.us/j/62714090567?pwd=bEFpNjRYQ0orazhRc0hLMTZYYi9SZz09).
+  + Tutorials will be used as office hours, for discussing homework solutions, and for project demos.
+  + Tutorials will continue to remain online over [Zoom](https://ubc.zoom.us/j/62714090567?pwd=bEFpNjRYQ0orazhRc0hLMTZYYi9SZz09).
 + We will be using Piazza for class discussion. [Signup](https://piazza.com/ubc.ca/winterterm22021/cpen432) using the access code LIU&LAYLAND.
+
+<!-- + Lectures and tutorials will be online (until furter announcements). Here is the [Zoom link](https://ubc.zoom.us/j/62714090567?pwd=bEFpNjRYQ0orazhRc0hLMTZYYi9SZz09). -->
 
 <!-- on course Canvas page: <https://canvas.ubc.ca/courses/63247> -->
 
