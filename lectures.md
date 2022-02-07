@@ -4,16 +4,17 @@ title: Lectures
 
 ### Class meetings
 
-| **No.** | **Date** | **Topics** | **Slides** | **Textbook Sections** |
-|:--------|:---------|:-----------|:-----------|:-------------|
-|  1  | 10 Jan | Introduction | [L1](http://cpen432.github.io/resources/gujarati-slides/1-introduction.pdf) | 1.1, 1.2 |
-|  2  | 12 Jan | Basics & Aperiodic Scheduling | [L2](http://cpen432.github.io/resources/gujarati-slides//2-basics-and-aperiodic.pdf) | 2.1-2.4, 3.1-3.4 |
-|  3  | 17 Jan | ^ | ^ | ^ |
-|  4  | 19 Jan | Periodic Scheduling (TS, RM) | [L4](http://cpen432.github.io/resources/gujarati-slides//4-periodic.pdf), [notes](http://cpen432.github.io/resources/gujarati-slides//4-notes.pdf) | 4.1-4.3.1 |
-|  5  | 24 Jan | Periodic Scheduling (RM, EDF) | [L5](http://cpen432.github.io/resources/gujarati-slides//5-periodic.pdf), [notes](http://cpen432.github.io/resources/gujarati-slides//5-notes.pdf) | 4.3.2, 4.4 |
-|  6  | 26 Jan | Periodic Scheduling (DM) | [L6](http://cpen432.github.io/resources/gujarati-slides//6-periodic.pdf), [notes](http://cpen432.github.io/resources/gujarati-slides//6-notes.pdf) | 4.5 |
-|  7  | 31 Jan | ^ | [notes](http://cpen432.github.io/resources/gujarati-slides//7-notes.pdf) | ^ |
-|  8  | 2 Feb | ^ | [notes](http://cpen432.github.io/resources/gujarati-slides//8-notes.pdf) | ^ |
+| **No.** | **Date** | **Topics** | **Slides** | **Textbook Sections** | **Additional Readings** |
+|:--------|:---------|:-----------|:-----------|:----------------------|:------------------------|
+|  1  | 10 Jan | Introduction | [L1](http://cpen432.github.io/resources/gujarati-slides/1-introduction.pdf) | 1.1, 1.2 ||
+|  2  | 12 Jan | Basics & Aperiodic Scheduling | [L2](http://cpen432.github.io/resources/gujarati-slides//2-basics-and-aperiodic.pdf) | 2.1-2.4, 3.1-3.4 ||
+|  3  | 17 Jan | ^ | ^ | ^ ||
+|  4  | 19 Jan | Periodic Scheduling (TS, RM) | [L4](http://cpen432.github.io/resources/gujarati-slides//4-periodic.pdf), [notes](http://cpen432.github.io/resources/gujarati-slides//4-notes.pdf) | 4.1-4.3.1 ||
+|  5  | 24 Jan | Periodic Scheduling (RM, EDF) | [L5](http://cpen432.github.io/resources/gujarati-slides//5-periodic.pdf), [notes](http://cpen432.github.io/resources/gujarati-slides//5-notes.pdf) | 4.3.2, 4.4 ||
+|  6  | 26 Jan | Periodic Scheduling (DM) | [L6](http://cpen432.github.io/resources/gujarati-slides//6-periodic.pdf), [notes](http://cpen432.github.io/resources/gujarati-slides//6-notes.pdf) | 4.5 ||
+|  7  | 31 Jan | ^ | [notes](http://cpen432.github.io/resources/gujarati-slides//7-notes.pdf) | ^ ||
+|  8  | 2 Feb | ^ | [notes](http://cpen432.github.io/resources/gujarati-slides//8-notes.pdf) | ^ ||
+|  9  | 7 Feb | CAN Bus Analysis | [L9](http://cpen432.github.io/resources/gujarati-slides//9-can.pdf) || [Davis et al. (2007)](http://cpen432.github.io/resources/P2-davis-etal.pdf) |
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
