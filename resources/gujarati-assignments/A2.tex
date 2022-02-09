@@ -1,0 +1,162 @@
+\documentclass[12pt]{article}
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{hyphenat}
+\usepackage{multirow}
+
+\usepackage[letterpaper,left=3cm, right=3cm, top=4cm, bottom=4cm]{geometry}
+
+\usepackage[mathscr]{euscript}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+  }
+
+  \urlstyle{same}
+
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\cA}{\mathscr A}
+\newcommand{\cF}{\mathcal F}
+\newcommand{\cB}{\mathscr B}
+\newcommand{\cM}{\mathscr M}
+\newcommand{\cG}{\mathscr G}
+\newcommand{\cP}{\mathscr P}
+\newcommand{\cL}{\mathscr L}
+\newcommand{\cX}{\mathscr X}
+\newcommand{\cZ}{\mathscr Z}
+\newcommand{\cE}{\mathscr E}
+\newcommand{\cN}{\mathscr N}
+\newcommand{\cT}{\mathscr T}
+\newcommand{\ran}{\text{ran}}
+\newcommand{\dom}{\text{dom}}
+\newcommand{\supp}{\text{supp}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\var}{\text{Var}}
+\newcommand{\ind}{{\mathbf 1}}
+\newcommand{\ie}{{\textit{i.e.}}}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem{property}{Property}
+\newtheorem{observation}{Observation}
+\newtheorem{remark}{Remark}
+
+\newenvironment{proof}
+        {\noindent {\em Proof.}~~~} %\\
+        {\begin{flushright}$\Box$\end{flushright}}
+
+\title{
+  CPEN 432: Homework Assignment 2 \\
+  \large
+  Deadline: 11:59 PM, 21 February, 2022
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\setlength{\baselineskip}{0.90\baselineskip}
+
+\pagestyle{empty}
+
+\section{Implicit Deadlines [15 points]}
+
+In a periodic task system with implicit deadlines, rate monotonic (RM)
+scheduling may do as well as earliest deadline first (EDF) scheduling if there
+is a specific relationship among the task periods.
+Specifically, $n$ tasks are to be scheduled on a uniprocessor, and their periods
+are $T,\; kT,\; k^{2}T,\; \dots,\; k^{n-1}T$, respectively (where $k$ is an
+integer greater than $1$), then the utilization bound is $1$ and not
+$n(2^{1/n}-1)$. For example, any four tasks with periods $4,\; 8,\; 16,\; 32$,
+have a utilization bound of $1$. In fact, when a set of tasks have periods that
+follow such a pattern (called a {\em harmonic sequence}), then that set of tasks
+can be replaced by one virtual task for the purpose of analysis.
+
+Using the aforementioned idea, develop a schedulability analysis using
+utilization bounds giving some attention to the possibility of a harmonic chain
+existing. \textbf{(i)}~Provide a general method first, and then
+\textbf{(ii)}~use it to test the schedulability of task sets:
+\begin{align}
+&\tau = \{(C_{1}=1.5,T_{1}=6),(2,12),(2,18),(1,24),(4,48),(6,54),(4,96)\}, \; \nonumber \text{and} \\
+&\tau' = \left\{\substack{(C_{1}=1,T_{1}=5),(1,10),(1,15),(2,20),(1,25),\\(3,30),(2,40),(5,75),(2,80),(5,225)}\right\}. \nonumber
+\end{align}
+
+\section{Constrained Deadlines [35 points]}
+
+\subsection{Yet Another Exact Schedulability Test [20 points]}
+
+Consider $n$ constrained-deadline periodic tasks $\tau_1, \dotsc, \tau_n$,
+where task $\tau_i$ is characterized by a period $T_i$, a relative deadline
+$D_i \leq T_i$, and a WCET $C_i > 0$. All tasks arrive at time $0$. Suppose
+that the tasks are scheduled on one processor using the deadline monotonic (DM)
+scheduling policy. Assume for simplicity that the tasks are ordered by
+decreasing priorities, \ie,~$T_{i}$ has a higher priority than $T_{j}$
+\textit{iff} $i<j$.
+
+Let $\Delta_{i}(t) = \delta_{i}(t)/t$, where $\delta_{i}(t)$ is defined as
+follows.
+\begin{align*}
+  \delta_{i}(t) = \sum_{j=1}^{i-1}\left \lceil { t \over T_{j}}\right\rceil
+  C_{j} + C_{i} \qquad (0 <t \leqslant T_{i}).
+\end{align*}
+\begin{enumerate}
+
+\item Show that $\tau_i$ is schedulable if and only if
+$\min_{(0,D_{i}]}\Delta_{i}(t) \leq 1$. Conclude that the entire task set is
+\textit{feasible} if and only if $\max_{i \in
+\{1,\dotsc,n\}}\min_{(0,D_{i}]}\Delta_{i}(t) \leq 1$.
+
+\item Give an economical interpretation of the test in the previous part
+(think of \textit{supply} and \textit{demand}).
+
+\item Show that in order to deem task $\tau_i$ schedulable, it is sufficient
+that $\Delta_{i}(t) \leq 1$ for \emph{some} point in the testing set 
+\begin{align*}
+S_{i} = \Bigr \{T_j: j \in \{1,\dotsc, i-1\}, k \in \bigl \{1, \dotsc, \lfloor  \min(T_i, D_i)/T_j \rfloor \bigr \} \Bigr\}.
+\end{align*}
+
+\item From the previous part, derive the asymptotic running time of the
+schedulability test for the entire task set. Is this a polynomial-time test?
+Justify your answer.
+\end{enumerate}
+
+\subsection{EDF Schedulability Analysis [15 points]}
+You need to implement a real-time application with three periodic tasks.
+\begin{itemize}
+\item $\tau_{1} = (T_1 = 100\,ms, \; D_1 =  80\,ms, \; C_1=10\,ms)$
+\item $\tau_{1} = (T_1 = 75\,ms,  \; D_1 =  50\,ms, \; C_1=15\,ms)$
+\item $\tau_{1} = (T_1 = 150\,ms, \; D_1 = 100\,ms, \; C_1=30\,ms)$
+\end{itemize}
+Luckily for you, the operating system supports EDF scheduling and hence you can
+get better processor utilization. On the other hand, you would like to conserve
+power and run the processor at the lowest possible speed. If the timing
+information was obtained using a 500MHz processor, what is the lowest processor
+speed that would ensure that all jobs meet their deadlines? Assume that
+execution times scale linearly with speed.
+
+Note that EDF utilization for
+implicit deadline tasks does not apply because $\tau_1$, $\tau_2$, and $\tau_3$
+have constrained deadlines. 
+
+\end{document}

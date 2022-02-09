@@ -7,7 +7,7 @@ title: Assignments
 | **No.** | **Release Date** | **Deadline** | **PDF** | **Source** |
 |:--------|:-----------------|:-------------|:--------|:-----------|
 |  1  | 23 Jan | 7 Feb | [A1.pdf](https://github.com/CPEN432/cpen432.github.io/blob/main/resources/gujarati-assignments/A1.pdf) | [A1.tex](https://github.com/CPEN432/cpen432.github.io/blob/main/resources/gujarati-assignments/A1.tex) |
-|  2 | 7 Feb | 21 Feb | TBA | TBA |
+|  2 | 8 Feb | 21 Feb | [A2.pdf](https://github.com/CPEN432/cpen432.github.io/blob/main/resources/gujarati-assignments/A2.pdf) | [A2.tex](https://github.com/CPEN432/cpen432.github.io/blob/main/resources/gujarati-assignments/A2.tex) |
 
 ### Submission Instructions
 
