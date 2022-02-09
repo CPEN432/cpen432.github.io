@@ -15,6 +15,7 @@ title: Lectures
 |  7  | 31 Jan | ^ | [notes](http://cpen432.github.io/resources/gujarati-slides//7-notes.pdf) | ^ ||
 |  8  | 2 Feb | ^ | [notes](http://cpen432.github.io/resources/gujarati-slides//8-notes.pdf) | ^ ||
 |  9  | 7 Feb | CAN Bus Analysis | [L9](http://cpen432.github.io/resources/gujarati-slides//9-can.pdf) || [Davis et al. (2007)](http://cpen432.github.io/resources/P2-davis-etal.pdf) |
+|  10  | 9 Feb | Resource Sharing | [L9](http://cpen432.github.io/resources/gujarati-slides//9-can.pdf) | 7.2-7.4, 7.6-7.7||
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
