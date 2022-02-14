@@ -15,7 +15,7 @@ title: Lectures
 |  7  | 31 Jan | ^ | [notes](http://cpen432.github.io/resources/gujarati-slides//7-notes.pdf) | ^ ||
 |  8  | 2 Feb | ^ | [notes](http://cpen432.github.io/resources/gujarati-slides//8-notes.pdf) | ^ ||
 |  9  | 7 Feb | CAN Bus Analysis | [L9](http://cpen432.github.io/resources/gujarati-slides//9-can.pdf) || [Davis et al. (2007)](http://cpen432.github.io/resources/P2-davis-etal.pdf) |
-|  10  | 9 Feb | Resource Sharing | [L10](http://cpen432.github.io/resources/gujarati-slides//10-resource-sharing.pdf) | 7.2-7.4, 7.6-7.7| [Mars1](http://cpen432.github.io/resources/P3-mars.pdf), [Mars2](http://cpen432.github.io/resources/P4-mars.pdf)|
+|  10  | 9 Feb | Resource Sharing (NPP, PIP, Mars) | [L10](http://cpen432.github.io/resources/gujarati-slides//10-resource-sharing.pdf) | 7.2-7.4, 7.6 | [Jones (1997)](http://cpen432.github.io/resources/P3-mars.pdf), [Durkin (1998)](http://cpen432.github.io/resources/P4-mars.pdf)|
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
