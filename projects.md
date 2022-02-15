@@ -7,7 +7,7 @@ title: Projects
 | **No.** | **Release Date** | **Deadline** | **Topics** |
 |:--------|:-----------------|:-------------|:-----------|
 |  1  | 19 Jan | 8 Feb | UART, printing, timers, and code optimization |
-|  1  | 8 Feb | 1 Mar | Interrupts |
+|  2  | 8 Feb | 1 Mar | Interrupts and timers |
 
 <!-- [README](https://gitlab.com/cpen432-wt2-2021-2022/p1/release/-/blob/main/README.md) | -->
 
