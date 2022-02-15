@@ -18,6 +18,8 @@ title: Lectures
 |  10  | 9 Feb | Resource Sharing (NPP, PIP, Mars) | [L10](http://cpen432.github.io/resources/gujarati-slides//10-resource-sharing.pdf) | 7.2-7.4, 7.6 | [Jones (1997)](http://cpen432.github.io/resources/P3-mars.pdf), [Durkin (1998)](http://cpen432.github.io/resources/P4-mars.pdf)|
 |  11  | 14 Feb | Resource Sharing (PIP, PCP) | [L11](http://cpen432.github.io/resources/gujarati-slides//11-resource-sharing.pdf) | 7.6-7.7 ||
 |  12  | 16 Feb | ^ | ^ | ^ ||
+|  -  | **21 Feb** | **Midterm Break** |-|-|-|
+|  -  | **23 Feb** | **Midterm Break** |-|-|-|
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
