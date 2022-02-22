@@ -1,0 +1,174 @@
+\documentclass[12pt]{article}
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{hyphenat}
+\usepackage{multirow}
+\usepackage{booktabs}
+
+\usepackage[letterpaper,left=3cm, right=3cm, top=4cm, bottom=4cm]{geometry}
+
+\usepackage[mathscr]{euscript}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+  }
+
+  \urlstyle{same}
+
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\cA}{\mathscr A}
+\newcommand{\cF}{\mathcal F}
+\newcommand{\cB}{\mathscr B}
+\newcommand{\cM}{\mathscr M}
+\newcommand{\cG}{\mathscr G}
+\newcommand{\cP}{\mathscr P}
+\newcommand{\cL}{\mathscr L}
+\newcommand{\cX}{\mathscr X}
+\newcommand{\cZ}{\mathscr Z}
+\newcommand{\cE}{\mathscr E}
+\newcommand{\cN}{\mathscr N}
+\newcommand{\cT}{\mathscr T}
+\newcommand{\ran}{\text{ran}}
+\newcommand{\dom}{\text{dom}}
+\newcommand{\supp}{\text{supp}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\var}{\text{Var}}
+\newcommand{\ind}{{\mathbf 1}}
+\newcommand{\ie}{{\textit{i.e.}}}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem{property}{Property}
+\newtheorem{observation}{Observation}
+\newtheorem{remark}{Remark}
+
+\newenvironment{proof}
+        {\noindent {\em Proof.}~~~} %\\
+        {\begin{flushright}$\Box$\end{flushright}}
+
+\title{
+  CPEN 432: Homework Assignment 3 \\
+  \large
+  Deadline: 11:59 PM, 7 March, 2022
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\setlength{\baselineskip}{0.90\baselineskip}
+
+\pagestyle{empty}
+
+\section{Fixed-Priority Scheduling [20 points]}
+
+A single on-board computer controls several features on a new car. The on-board
+computer plays music from a local hard-disk, and this task ($\tau_{1}$)
+requires 20ms of time every 100ms. The GPS system ($\tau_{2}$) that provides
+directions requires 30ms of execution time every 250ms. The one other task that
+runs on this computer manages the temperature and humidity in the car; this
+task ($\tau_{3}$) is performed every 400ms and requires 100ms of execution
+each period. Tasks are scheduled using \textit{rate monotonic} scheduling.
+
+\begin{enumerate}
+
+\item You are a new engineer on this project and you have been assigned the
+task of integrating an additional feature on this on-board computer. This
+feature, a traffic monitor, scans a special communications channel and
+identifies routes that are congested or under repair. The traffic monitor
+($\tau_{4}$), as it is currently implemented, runs for 100ms every 280ms.
+You need to determine if this task can be introduced without causing any
+deadline violations. If not, you need to instruct the feature engineers to
+redesign the traffic monitor and reduce its execution time (you cannot alter
+the frequency because it has been determined to provide drivers with
+sufficient time to change routes). What would your recommendation be?
+
+\item Assume that only the original three tasks ($\tau_{1}, \tau_{2}, \tau_{3}$)
+are running on the on-board computer. In a redesign stage, it is determined that
+these tasks need to update a display by sending some information over a data
+bus. This communication takes time but the display needs to be updated within
+the task's period. As a result, the relative deadlines for the three tasks
+need to be shortened and the tasks scheduled using \textit{deadline monotonic}
+scheduling instead. For simplicity, all tasks will have their
+deadlines reduced by a factor $f$. In other words, the relative deadline
+$D_{i}$ for task $\tau_{i}$ will become $D_{i} = f{\cdot}T_{i}$ where $T_{i}$ is
+the period of the task. What is the smallest value of $f$ such that the tasks
+will continue to meet their deadlines.
+
+\end{enumerate}
+
+\section{Resource Sharing [30 points]}
+
+Consider a periodic task set $\tau = \{\tau_1, \tau_2, \tau_3, \tau_4\}$
+consisting of four tasks with three shared
+resources $\{R_1, R_2, R_3\}$ , as summarized in the table below.
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{cccc}
+\toprule
+Task & $C_{i}$ & $T_{i}$ & Resources used \\ 
+  \midrule
+$\tau_{1}$ & 4 & 10 & $R_{1}, R_{2}$ \\
+$\tau_{2}$ & 5 & 20 & $R_{2}, R_{3}$ \\
+$\tau_{3}$ & 10 & 35 & $R_{3}$ \\
+$\tau_{4}$ & 2 & 40 & $R_{1}$ \\ 
+  \bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+The duration for which each resource is used by the tasks is specified in
+another table below.
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{cccc}
+\toprule
+Resource & Duration \\ \midrule
+$R_{1}$ & 2 \\
+$R_{2}$ & 1 \\
+$R_{3}$ & 2 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+Assume that a task locks only one resource at a time,
+\ie, there are no nested critical sections. Assume \emph{implicit} deadlines.
+Can task set $\tau$ be scheduled to meet deadlines using
+\begin{enumerate}
+\item RM with NPP?
+\item RM with PIP?
+\item RM with PCP?
+\item EDF with NPP?
+\item EDF with PIP?
+\item EDF with PCP?
+\end{enumerate}
+In each case, explain your answer (\ie,~show the analysis steps)
+and, if your answer is no, specify which tasks may miss their deadlines.
+
+Note: For resource sharing protocols where the blocking time is bounded by the
+length of a single critical section, when computing the blocking time,
+one time unit is subtracted from the length of the critical section.
+For example, in Equations 7.4 and 7.16 in the textbook, $\delta_{j,k} - 1$ is
+used instead of just $\delta_{j, k}$. 
+
+\end{document}
