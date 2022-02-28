@@ -20,7 +20,7 @@ title: Lectures
 |  12  | 16 Feb | ^ | ^ | ^ ||
 |  -  | **21 Feb** | **Midterm Break** |-|-|-|
 |  -  | **23 Feb** | **Midterm Break** |-|-|-|
-|  13  | 28 Feb | Resource Sharing (SRP) |  | 7.8 ||
+|  13  | 28 Feb | Resource Sharing (SRP) | [L13](http://cpen432.github.io/resources/gujarati-slides//13-resource-sharing.pdf) | 7.8 ||
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
