@@ -16,10 +16,11 @@ title: Lectures
 |  8  | 2 Feb | ^ | [notes](http://cpen432.github.io/resources/gujarati-slides//8-notes.pdf) | ^ ||
 |  9  | 7 Feb | CAN Bus Analysis | [L9](http://cpen432.github.io/resources/gujarati-slides//9-can.pdf) || [Davis et al. (2007)](http://cpen432.github.io/resources/P2-davis-etal.pdf) |
 |  10  | 9 Feb | Resource Sharing (NPP, PIP, Mars) | [L10](http://cpen432.github.io/resources/gujarati-slides//10-resource-sharing.pdf) | 7.2-7.4, 7.6 | [Jones (1997)](http://cpen432.github.io/resources/P3-mars.pdf), [Durkin (1998)](http://cpen432.github.io/resources/P4-mars.pdf)|
-|  11  | 14 Feb | Resource Sharing (PIP, PCP) | [L11](http://cpen432.github.io/resources/gujarati-slides//11-resource-sharing.pdf), [notes](http://cpen432.github.io/resources/gujarati-slides//11-notes.pdf) | 7.6-7.7 ||
+|  11  | 14 Feb | Resource Sharing (PIP, PCP) | [L11](http://cpen432.github.io/resources/gujarati-slides//11-resource-sharing.pdf), [notes](http://cpen432.github.io/resources/gujarati-slides//11-notes.pdf) | 7.6-7.7, 7.9 ||
 |  12  | 16 Feb | ^ | ^ | ^ ||
 |  -  | **21 Feb** | **Midterm Break** |-|-|-|
 |  -  | **23 Feb** | **Midterm Break** |-|-|-|
+|  13  | 28 Feb | Resource Sharing (SRP) |  | 7.8 ||
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
