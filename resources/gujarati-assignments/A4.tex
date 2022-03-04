@@ -1,0 +1,173 @@
+\documentclass[12pt]{article}
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{hyphenat}
+\usepackage{multirow}
+\usepackage{booktabs}
+
+\usepackage[letterpaper,left=3cm, right=3cm, top=4cm, bottom=4cm]{geometry}
+
+\usepackage[mathscr]{euscript}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+  }
+
+  \urlstyle{same}
+
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\cA}{\mathscr A}
+\newcommand{\cF}{\mathcal F}
+\newcommand{\cB}{\mathscr B}
+\newcommand{\cM}{\mathscr M}
+\newcommand{\cG}{\mathscr G}
+\newcommand{\cP}{\mathscr P}
+\newcommand{\cL}{\mathscr L}
+\newcommand{\cX}{\mathscr X}
+\newcommand{\cZ}{\mathscr Z}
+\newcommand{\cE}{\mathscr E}
+\newcommand{\cN}{\mathscr N}
+\newcommand{\cT}{\mathscr T}
+\newcommand{\ran}{\text{ran}}
+\newcommand{\dom}{\text{dom}}
+\newcommand{\supp}{\text{supp}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\var}{\text{Var}}
+\newcommand{\ind}{{\mathbf 1}}
+\newcommand{\ie}{{\textit{i.e.}}}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem{property}{Property}
+\newtheorem{observation}{Observation}
+\newtheorem{remark}{Remark}
+
+\newenvironment{proof}
+        {\noindent {\em Proof.}~~~} %\\
+        {\begin{flushright}$\Box$\end{flushright}}
+
+\title{
+  CPEN 432: Homework Assignment 4 \\
+  \large
+  Deadline: 11:59 PM, 21 March, 2022
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\setlength{\baselineskip}{0.90\baselineskip}
+
+\pagestyle{empty}
+
+\section{Stack Resource Policy [35 points]}
+
+\subsection{Example [25 points]}
+
+Consider the example discussed in the class during Lecture 14,
+consisting of three tasks $\tau_1$, $\tau_2$, and $\tau_3$, as summarized below
+(all time units are in milliseconds).
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{cccccccc}
+\toprule
+$\tau_i$ & $D_i$ & $T_i$ & $\pi_i$ & $\mu_i(R_1)$ & $\mu_i(R_2)$ & $\mu_i(R_3)$ & $a_i$\\ \midrule
+$\tau_1$ & 12 & 12 & 3 & 1 & 0 & 1 & 2.5 \\
+$\tau_1$ & 15 & 15 & 2 & 2 & 1 & 3 & 1.5 \\
+$\tau_1$ & 19 & 19 & 1 & 3 & 1 & 1 & 0   \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+The execution and resource access pattern of each task remains the same as
+in the example discussed in the class, \ie,~as shown in
+\url{https://cpen432.github.io/resources/gujarati-slides/14-notes.pdf}.
+In the class, we considered only the first job of each task.
+Suppose that these are periodic jobs with implicit deadlines, \ie,~$D_i = T_i$.
+\begin{enumerate}
+\item Illustrate the schedule from time $t = 0$ to time $t = 20$.
+\item Show how the resource ceilings and the system ceiling vary in this duration.
+\item Explain every instance of a failed or a successful preemption test.
+\end{enumerate}
+Feel free to attach a spreadsheet containing the answers, if required.
+
+
+
+\subsection{Blocking Analysis [10 points]}
+
+Consider a periodic task set $\tau = \{\tau_1, \tau_2, \tau_3, \tau_4\}$
+consisting of four tasks with three shared
+resources $\{R_1, R_2, R_3\}$ , as summarized in the table below.
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{cccc}
+\toprule
+Task & $C_{i}$ & $T_{i}$ & Resources used \\ 
+  \midrule
+$\tau_{1}$ & 4 & 10 & $R_{1}, R_{2}$ \\
+$\tau_{2}$ & 5 & 20 & $R_{2}, R_{3}$ \\
+$\tau_{3}$ & 10 & 35 & $R_{3}$ \\
+$\tau_{4}$ & 2 & 40 & $R_{1}$ \\ 
+  \bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+The duration for which each resource is used by the tasks is specified in
+another table below.
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{cccc}
+\toprule
+Resource & Duration \\ \midrule
+$R_{1}$ & 2 \\
+$R_{2}$ & 1 \\
+$R_{3}$ & 2 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+Assume that a task locks only one resource at a time,
+\ie, there are no nested critical sections. Assume \emph{implicit} deadlines.
+Can task set $\tau$ be scheduled to meet deadlines using
+\begin{enumerate}
+\item RM with SRP?
+\item EDF with SRP?
+\end{enumerate}
+In each case, explain your answer (\ie,~show the analysis steps)
+and, if your answer is no, specify which tasks may miss their deadlines.
+
+Note: For resource sharing protocols where the blocking time is bounded by the
+length of a single critical section, when computing the blocking time,
+one time unit is subtracted from the length of the critical section.
+For example, in Equations 7.4 and 7.16 in the textbook, $\delta_{j,k} - 1$ is
+used instead of just $\delta_{j, k}$. 
+
+\section{Practical Considerations [15 points]}
+
+Compare and contrast the implementation effort needed for PIP, PCP, and SRP.
+Please keep your answers concise but informative. For reference, you may read
+through sections 7.6.4, 7.7.4, and 7.8.6 from the textbook on implementation
+considerations for these protocols.
+
+\end{document}
