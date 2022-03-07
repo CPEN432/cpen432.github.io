@@ -22,6 +22,7 @@ title: Lectures
 |  -  | **23 Feb** | **Midterm Break** |-|-|-|
 |  13  | 28 Feb | Resource Sharing (SRP) | [L13](http://cpen432.github.io/resources/gujarati-slides//13-resource-sharing.pdf), [notes](http://cpen432.github.io/resources/gujarati-slides//14-notes.pdf) | 7.8 ||
 |  14  | 1 Mar | ^ | ^ | ^ ||
+|  15  | 7 Mar | Fixed-Priority Servers | [L15](http://cpen432.github.io/resources/gujarati-slides//15-fp-servers.pdf) | 5.2-5.4, 5.6 ||
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
