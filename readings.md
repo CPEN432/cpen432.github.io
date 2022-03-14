@@ -12,6 +12,10 @@ Additional readings and material not covered in the text will be posted below.
 
 ### Additional Readings
 
+#### Textbook
+
+Sanjoy Baruah, Marko Bertogna, and Giorgio Buttazzo. _"Multiprocessor Scheduling for Real-Time Systems."_ Springer (2015). [UBC Library](https://go.exlibris.link/yXzZkF95)
+
 #### Research Papers
 
 Chung Laung Liu and James W. Layland. _"Scheduling algorithms for multiprogramming in a hard-real-time environment."_ Journal of the ACM (JACM) 20, no. 1 (1973): 46-61. [PDF](http://cpen432.github.io/resources/P1-liu-layland.pdf)
