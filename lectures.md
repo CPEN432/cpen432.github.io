@@ -24,6 +24,7 @@ title: Lectures
 |  14  | 1 Mar | ^ | ^ | ^ ||
 |  15  | 7 Mar | Fixed-Priority Servers (BS, PS, DS, SS) | [L15](http://cpen432.github.io/resources/gujarati-slides//15-fp-servers.pdf) | 5.2-5.4, 5.6 ||
 |  16  | 9 Mar | Dynamic-Priority Servers (DSS, CBS) | ^ |6.3, 6.9 ||
+|  17  | 14 Mar | Dynamic-Priority Servers (DSS, CBS) | ^ |^||
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
