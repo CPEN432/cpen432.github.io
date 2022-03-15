@@ -12,9 +12,11 @@ Additional readings and material not covered in the text will be posted below.
 
 ### Additional Readings
 
-#### Textbook
+#### Textbooks
 
 Sanjoy Baruah, Marko Bertogna, and Giorgio Buttazzo. _"Multiprocessor Scheduling for Real-Time Systems."_ Springer (2015). [UBC Library](https://go.exlibris.link/yXzZkF95)
+
+Edward Ashford Lee and Sanjit Arunkumar Seshia. _"Introduction to Embedded Systems: A Cyber-Physical Systems Approach."_ Mit Press (2016). [PDF](https://ptolemy.berkeley.edu/books/leeseshia/releases/LeeSeshia_DigitalV2_2.pdf)
 
 #### Research Papers
 
