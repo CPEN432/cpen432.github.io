@@ -25,6 +25,7 @@ title: Lectures
 |  15  | 7 Mar | Fixed-Priority Servers (BS, PS, DS, SS) | [L15](http://cpen432.github.io/resources/gujarati-slides//15-fp-servers.pdf) | 5.2-5.4, 5.6 ||
 |  16  | 9 Mar | Dynamic-Priority Servers (DSS, CBS) | ^ |6.3, 6.9 ||
 |  17  | 14 Mar | Dynamic-Priority Servers (DSS, CBS) | ^ |^||
+|  18  | 16 Mar | WCET Analysis | [L18](http://cpen432.github.io/resources/gujarati-slides//18-wcet.pdf) || Ch. 16 in [Lee and Seshia](https://ptolemy.berkeley.edu/books/leeseshia/releases/LeeSeshia_DigitalV2_2.pdf) |
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
