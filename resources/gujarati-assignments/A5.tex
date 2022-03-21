@@ -1,0 +1,165 @@
+\documentclass[12pt]{article}
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{hyphenat}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{listings}
+
+
+\usepackage[letterpaper,left=3cm, right=3cm, top=4cm, bottom=4cm]{geometry}
+
+\usepackage[mathscr]{euscript}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+  }
+
+  \urlstyle{same}
+
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\cA}{\mathscr A}
+\newcommand{\cF}{\mathcal F}
+\newcommand{\cB}{\mathscr B}
+\newcommand{\cM}{\mathscr M}
+\newcommand{\cG}{\mathscr G}
+\newcommand{\cP}{\mathscr P}
+\newcommand{\cL}{\mathscr L}
+\newcommand{\cX}{\mathscr X}
+\newcommand{\cZ}{\mathscr Z}
+\newcommand{\cE}{\mathscr E}
+\newcommand{\cN}{\mathscr N}
+\newcommand{\cT}{\mathscr T}
+\newcommand{\ran}{\text{ran}}
+\newcommand{\dom}{\text{dom}}
+\newcommand{\supp}{\text{supp}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\var}{\text{Var}}
+\newcommand{\ind}{{\mathbf 1}}
+\newcommand{\ie}{{\textit{i.e.}}}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem{property}{Property}
+\newtheorem{observation}{Observation}
+\newtheorem{remark}{Remark}
+
+\newenvironment{proof}
+        {\noindent {\em Proof.}~~~} %\\
+        {\begin{flushright}$\Box$\end{flushright}}
+
+\title{
+  CPEN 432: Homework Assignment 5 \\
+  \large
+  Deadline: 11:59 PM, 4 April, 2022
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\setlength{\baselineskip}{0.90\baselineskip}
+
+\pagestyle{empty}
+
+\section{Constant Bandwidth Server [24 points]}
+
+A control application consists of two periodic tasks with worst-case
+computation times $C_1= 8ms$ and $C_2 = 6ms$, and periods $T_1 = 20ms$ and
+$T_2 = 30ms$.
+Moreover, the system includes two interrupt handling routines $ISR_1$ and
+$ISR_2$ with average computation times of $1.0ms$ and $1.4ms$, respectively.
+
+We want to schedule two separate constant bandwidth servers $CBS_1$ and $CBS_2$
+for serving the two interrupt handling routines, respectively.
+
+Based on profiling, we expect the first interrupt to occur more frequently, so
+the goal is to ensure that $U_{CBS1} = 2 \times U_{CBS2}$.
+Also, based on profiling, the context switch cost is supposed to be $20 \mu s$.
+
+Given the aforementioned constraints, and using results from Section 6.9.6
+in the textbook (which we also discussed in Lecture 17),
+compute parameters $Q_{CBS1}$, $Q_{CBS2}$, $T_{CBS1}$, and $T_{CBS}2$ such that
+the average response time of the interrupts is minimized.
+Also compute and report the resulting average response times of the interrupts.
+
+\section{WCET Analysis [26 points]}
+
+Consider the function \texttt{check\_password} given below that takes two
+arguments: a user ID \texttt{uid} and candidate password \texttt{pwd} (both
+modeled as \texttt{ints} for simplicity). This function checks that password
+against a list of user IDs and passwords stored in an array, returning 1 if the
+password matches and 0 otherwise.
+
+\begin{lstlisting}
+struct entry {
+  int user;
+  int pass;
+};
+
+typedef struct entry entry_t;
+
+entry_t all_pwds[1000];
+
+int check_password(int uid, int pwd) {
+  int i = 0;
+  int retval = 0;
+
+  while(i < 1000) {
+    if (all_pwds[i].user == uid && all_pwds[i].pass == pwd) {
+      retval = 1;
+      break;
+    }
+    i++;
+  }
+
+  return retval;
+}
+\end{lstlisting}
+
+\subsection{Control-Flow Graph [16 points]}
+Draw the control-flow graph of the function \texttt{check\_password}.
+State the number of nodes (basic blocks) in the CFG. (Remember that each
+conditional statement is considered a single basic block by itself.) Also state
+the number of paths from entry point to exit point (ignore path feasibility).
+
+\subsection{Side Channels [10]}
+Suppose the array \texttt{all\_pwds} is sorted based on passwords (either
+increasing or decreasing order). In this question, we explore if an external
+client that calls \texttt{check\_password} can infer anything about the
+passwords stored in \texttt{all\_pwds} by repeatedly calling it and recording
+the execution time of check password.
+Figuring out secret data from ``physical'' information, such as running time, is
+known as a \textit{side-channel attack}.
+
+In each of the following two cases, what, if anything, can the client infer about
+the passwords in \texttt{all\_pwds}?
+\begin{enumerate}
+\item The client has exactly one (uid, password) pair present in \texttt{all\_pwds}
+\item The client has NO (uid, password) pairs present in \texttt{all\_pwds}
+\end{enumerate}
+Assume that the client knows the program but not the contents of the array
+\texttt{all\_pwds}.
+
+\end{document}
