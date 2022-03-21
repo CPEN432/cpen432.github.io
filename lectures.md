@@ -26,6 +26,7 @@ title: Lectures
 |  16  | 9 Mar | Dynamic-Priority Servers (DSS, CBS) | ^ |6.3, 6.9 ||
 |  17  | 14 Mar | Dynamic-Priority Servers (DSS, CBS) | ^, [notes](http://cpen432.github.io/resources/gujarati-slides//17-notes.pdf) |^||
 |  18  | 16 Mar | WCET Analysis | [L18](http://cpen432.github.io/resources/gujarati-slides//18-wcet.pdf) || Ch. 16 in [Lee and Seshia](https://ptolemy.berkeley.edu/books/leeseshia/releases/LeeSeshia_DigitalV2_2.pdf) |
+|  19  | 21 Mar | Multiprocessor Scheduling | [L19](http://cpen432.github.io/resources/gujarati-slides//19-multiprocessor.pdf) |||
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
