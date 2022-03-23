@@ -9,6 +9,7 @@ title: Projects
 |  1  | 19 Jan | 8 Feb | UART, printing, timers, and code optimization |
 |  2  | 8 Feb | 1 Mar | Interrupts and timers |
 |  3  | 1 Mar | 22 Mar | FreeRTOS, EDF, SRP |
+|  4  | 23 Mar | 12 Apr | FreeRTOS, CBS |
 
 <!-- [README](https://gitlab.com/cpen432-wt2-2021-2022/p1/release/-/blob/main/README.md) | -->
 
