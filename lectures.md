@@ -29,7 +29,7 @@ title: Lectures
 |  19  | 21 Mar | Multiprocessor Scheduling (Partitioned) | [L19](http://cpen432.github.io/resources/gujarati-slides//19-multiprocessor.pdf) |||
 |  20  | 23 Mar | Multiprocessor Scheduling (Partitioned) | [L20](http://cpen432.github.io/resources/gujarati-slides//20-partitioned.pdf) || Ch. 6 in [Baruah et al.](https://go.exlibris.link/yXzZkF95) |
 |  21  | 28 Mar | Multiprocessor Scheduling (Global) | ^ |||
-|  22  | 30 Mar | Multiprocessor Scheduling (Global) | ^ |||
+|  22  | 30 Mar | Multiprocessor Scheduling (Global) | ^ || [Bertogna and Cirinei](http://cpen432.github.io/resources/P3-bertogna-cirinei.pdf) |
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->

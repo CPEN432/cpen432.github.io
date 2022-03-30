@@ -24,6 +24,8 @@ Chung Laung Liu and James W. Layland. _"Scheduling algorithms for multiprogrammi
 
 Robert I. Davis, Alan Burns, Reinder J. Bril, and Johan J. Lukkien. _"Controller Area Network (CAN) schedulability analysis: Refuted, revisited and revised."_ Real-Time Systems 35, no. 3 (2007): 239-272. [PDF](http://cpen432.github.io/resources/P2-davis-etal.pdf)
 
+Marko Bertogna, and Michele Cirinei. _"Response-Time Analysis for globally scheduled Symmetric Multiprocessor Platforms"_ Proceedings of the 28th IEEE International Real-Time Systems Symposium (RTSS 2007), pp. 149-160. [PDF](http://cpen432.github.io/resources/P3-bertogna-cirinei.pdf)
+
 #### C
 * _The C Programming Language_ - Brian Kernighan and Dennis Ritchie (classic)
 * _The C Book_ - Mike Banahan, Declan Brady and Mark Doran. Available for free [online](http://publications.gbdirect.co.uk/c_book/) and as a [pdf](http://publications.gbdirect.co.uk/c_book/thecbook.pdf). This book is well-written, with more emphasis on embedded system aspects. 
