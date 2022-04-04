@@ -26,6 +26,10 @@ Robert I. Davis, Alan Burns, Reinder J. Bril, and Johan J. Lukkien. _"Controller
 
 Marko Bertogna, and Michele Cirinei. _"Response-Time Analysis for globally scheduled Symmetric Multiprocessor Platforms"_ Proceedings of the 28th IEEE International Real-Time Systems Symposium (RTSS 2007), pp. 149-160. [PDF](http://cpen432.github.io/resources/P3-bertogna-cirinei.pdf)
 
+Rafik Henia, Arne Hamann, Marek Jersak, Razvan Racu, Kai Richter, and Rolf Ernst. _"System level performance analysis–the SymTA/S approach."_ IEE Proceedings - Computers and Digital Techniques 152, no. 2 (2005): 148-166. [PDF](http://cpen432.github.io/resources/P4-henia-etal.pdf)
+
+Jonas Diemer, Philip Axer, and Rolf Ernst. _"Compositional performance analysis in python with pycpa."_ Procdeeings of the 3rd International Workshop on Analysis Tools and Methodologies for Embedded and Real-time Systems (WATERS 2012), 46. [PDF](http://cpen432.github.io/resources/P5-diemer-etal.pdf)
+
 #### C
 * _The C Programming Language_ - Brian Kernighan and Dennis Ritchie (classic)
 * _The C Book_ - Mike Banahan, Declan Brady and Mark Doran. Available for free [online](http://publications.gbdirect.co.uk/c_book/) and as a [pdf](http://publications.gbdirect.co.uk/c_book/thecbook.pdf). This book is well-written, with more emphasis on embedded system aspects. 
