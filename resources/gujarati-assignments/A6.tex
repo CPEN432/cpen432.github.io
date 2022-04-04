@@ -1,0 +1,159 @@
+\documentclass[12pt]{article}
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{hyphenat}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{listings}
+
+
+\usepackage[letterpaper,left=3cm, right=3cm, top=4cm, bottom=4cm]{geometry}
+
+\usepackage[mathscr]{euscript}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+  }
+
+  \urlstyle{same}
+
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\cA}{\mathscr A}
+\newcommand{\cF}{\mathcal F}
+\newcommand{\cB}{\mathscr B}
+\newcommand{\cM}{\mathscr M}
+\newcommand{\cG}{\mathscr G}
+\newcommand{\cP}{\mathscr P}
+\newcommand{\cL}{\mathscr L}
+\newcommand{\cX}{\mathscr X}
+\newcommand{\cZ}{\mathscr Z}
+\newcommand{\cE}{\mathscr E}
+\newcommand{\cN}{\mathscr N}
+\newcommand{\cT}{\mathscr T}
+\newcommand{\ran}{\text{ran}}
+\newcommand{\dom}{\text{dom}}
+\newcommand{\supp}{\text{supp}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\var}{\text{Var}}
+\newcommand{\ind}{{\mathbf 1}}
+\newcommand{\ie}{{\textit{i.e.}}}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem{property}{Property}
+\newtheorem{observation}{Observation}
+\newtheorem{remark}{Remark}
+
+\newenvironment{proof}
+        {\noindent {\em Proof.}~~~} %\\
+        {\begin{flushright}$\Box$\end{flushright}}
+
+\title{
+  CPEN 432: Homework Assignment 6 \\
+  \large
+  Deadline: 11:59 PM, 18 April, 2022
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\setlength{\baselineskip}{0.90\baselineskip}
+
+\pagestyle{empty}
+
+\noindent
+\textbf{Note: This is the sixth and the last homework assignment.
+We will consider the best five homework assignment grades out of six when
+grading.}
+
+\section{Multiprocessor Scheduling [26 points]}
+
+Consider the following task set.
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{cccc}
+\toprule
+Task & $C_{i}$ & $D_{i}$ & $T_i$ \\ 
+  \midrule
+$\tau_{1}$ & 1 & 1 & 10,000 \\
+$\tau_{2}$ & 2 & 2 & 10,000 \\
+$\tau_{3}$ & 3 & 4 & 10,000 \\
+$\tau_{4}$ & 2 & 4 & 10,000 \\ 
+$\tau_{5}$ & 501 & 1,000 & 1,000\\ 
+$\tau_{6}$ & 5,001 & 10,000 & 10,000 \\ 
+$\tau_{7}$ & 5,000 & 10,000 & 10,000 \\ 
+  \bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Partitioned Scheduling [10 points]}
+
+Show that the aforementioned taskset cannot be partitioned onto a two-processor
+system, \ie,~on a multiprocessor with $m=2$.
+
+\subsection{Global Fixed-Priority Scheduling [16 points]}
+
+Show that the aforementioned taskset is not schedulable using global
+fixed-priority scheduling. Note that unlike on preemptive uniprocessors, rate
+monotonic (RM) priority assignment is no longer optimal for global scheduling
+upon multiprocessors. Hence, you need to show that no matter how the tasks are
+prioritized, the taskset can never be successfully scheduled.
+Hint: Synchronous arrivals may not be the worst-case scenario.
+
+
+
+\section{Event Arrivals with a Minimum Distance [24 points]}
+
+In Lecture 23, we discussed the ``periodic with jitter'' event model, which is
+modeled using time period $T$ and jitter $J$.
+Based on the parameter values, one way to classify different types of arrival
+patterns is as follows.
+\begin{itemize}
+\item Strictly periodic (if $J = 0$)
+\item Periodic with jitter (if $0 < J < T$)
+\item Bursty patterns (if $J > T$)
+\item Sporadic (if $J = \infty$)
+\end{itemize}
+Since bursty patterns (\ie,~when $J > T$) can result in more than one arrivals
+at the same time, the ``periodic with jitter'' model is often enhanced with
+another parameter $d_{min}$, which denotes the minimum distance between two
+consecutive events.
+
+\subsection{Definitions [12 points]}
+Define the upper and lower event functions $\eta^u(\Delta t)$ and
+$\eta^l(\Delta t)$ (respectively) as well as the minimum and maximum distance
+functions $\delta^{min}(N \geq 2)$ and $\delta^{max}(N \geq 2)$ (respectively)
+as a function of time period $T$, jitter $J$, and minimum distance $d_{min}$.
+\textit{Provide explanations for your definitions.}
+
+\subsection{Graphs [12 points]}
+Recall the event and distance function graphs for the bursty event stream
+$(T, J) = (30, 60)$ from Lecture 23.
+Plot similar event and distance function graphs but considering that the event
+arrivals are limited by a minimum distance of 10 time units, \ie,~for the event
+stream $(T, J, d_{min}) = (30, 60, 10)$.
+
+\end{document}
