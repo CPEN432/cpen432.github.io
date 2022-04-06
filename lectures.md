@@ -31,6 +31,7 @@ title: Lectures
 |  21  | 28 Mar | Multiprocessor Scheduling (Global) | ^ |||
 |  22  | 30 Mar | Multiprocessor Scheduling (Global) | ^ || [Bertogna and Cirinei (2007)](http://cpen432.github.io/resources/P3-bertogna-cirinei.pdf) |
 |  23  | 4 Apr | Compositional Performance Analysis | [L23](http://cpen432.github.io/resources/gujarati-slides//23-cpa.pdf) || [Henia et al. (2005)](http://cpen432.github.io/resources/P4-henia-etal.pdf), [Diemer et al. (2012)](http://cpen432.github.io/resources/P5-diemer-etal.pdf) |
+|  24  | 6 Apr | ^ | ^ | | ^ |
 
 <!-- | **No.** | **Date** | **Topics** | **Readings** | -->
 <!-- |:---:|:-------|:---:|:----:| -->
