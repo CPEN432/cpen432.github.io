@@ -5,7 +5,8 @@ subtitle: 2021-2022 Winter Term 2
 use-site-title: false
 ---
 
-  
+<mark>**The 2024 WINTER TERM 1 iteration of the course will be cross-listed with [CPSC 538G](https://arpangujarati.github.io/courses/cpsc538g/2024w1/index.html).**</mark>
+
 ### Overview
 In this course we will be studying the theoretical underpinnings of real-time compute systems, as well as practical aspects related to embedded systems. The course covers a wide range of topics, including scheduling theory (analysis and design of task scheduling algorithms and schedulability analysis), resource sharing protocols, real-time operating system principles, fault-tolerance and reliability, and software intensive safety critical systems. Students can expect to get a hands-on experience programming state-of-the-art embedded systems and working with real-time operating systems and industry-strength development tools.
 
